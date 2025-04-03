@@ -63,29 +63,28 @@ The items described here require some prerequisite knowledge for use. See the gu
 ### 1.4 Tools required
 ![](img/IMG_1469.jpg)
 
-| 道具名                                                 | 
+| Types                                                | 
 | --------------------------------------------------- |
-| はんだごて                                               |
-| こて台                     |
-| はんだ |
-| ニッパー                     | 
-| カッター                    |
-| やすり                      | 
-| ピンセット                    |   
-| 精密ドライバー                  | 
+| Soldering iron                                               |
+| Trowel                     |
+| Soldering wire |
+| Nipper                     | 
+| Cutter                    |
+| File                      | 
+| Twezers                    |   
+| screwdriver                 | 
 
 
 
 ### 1.5 Tools optional
 
-| 道具名                               | 
+| Types                               | 
 | --------------------------------- | 
-| C型のこて先|                    |
-| フラックス                             | 
+| C-type trowel tip                             | 
+| flux|                    |
 | IPA                               | 
-| こて台                               |
-| 耐熱マット                             | 
-| テスター                              |
+| Heat-resistant mat                             | 
+| Tester                              |
 | 小皿                                | 
 | 当て木                               |
 | はんだ吸い取り線                          | 
