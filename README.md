@@ -1,5 +1,5 @@
 # Cannonball LL Build
-![[cannonballll_w.jpg]]
+![](cannonballll_w.jpg)
 [日本語(note)](https://note.com/taro_hayashi/n/n3da1e116aa8d)
 ## 1 組み立てる前に
 ### 1.1 内容品
