@@ -63,16 +63,16 @@ The items described here require some prerequisite knowledge for use. See the gu
 ### 1.4 Tools required
 ![](img/IMG_1469.jpg)
 
-| 道具名                                                 |                                                                            |
-| --------------------------------------------------- | -------------------------------------------------------------------------- |
-| はんだごて                                               | [温度調節なし、こて台付](https://amzn.to/3FSrhSC) / [温度調節付き](https://amzn.to/3QWfftR) |
-| [こて台](https://amzn.to/4lkTFx9)                      |                                                                            |
-| [はんだ](https://akizukidenshi.com/catalog/g/g109530/) | 鉛入りが扱いやすいです                                                                |
-| [ニッパー](https://amzn.to/42jRNMn)                     |                                                                            |
-| [カッター](https://amzn.to/4ciRSV6)                     |                                                                            |
-| [やすり](https://amzn.to/3E1ivBl)                      | 棒、もしくは240番程度の紙やすり                                                          |
-| [ピンセット](https://amzn.to/3FTdAmw)                    |                                                                            |
-| [精密ドライバー](https://amzn.to/41YOjjt)                  | 00番か0番のプラスドライバー                                                            |
+| 道具名                                                 | 
+| --------------------------------------------------- |
+| はんだごて                                               |
+| こて台                     |
+| はんだ |
+| ニッパー                     | 
+| カッター                    |
+| やすり                      | 
+| ピンセット                    |   
+| 精密ドライバー                  | 
 
 
 
