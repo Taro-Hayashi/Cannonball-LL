@@ -1,67 +1,67 @@
-# Cannonball LL Build
+# Cannonball LL
 
 
 ![](img/IMG_.jpg)
 
 ![](img/cannonballll_w.jpg)
 [日本語(note)](https://note.com/taro_hayashi/n/n3da1e116aa8d)
-## 1 組み立てる前に
-### 1.1 内容品
+## 1 Introduction
+### 1.1 Contents
 ![](img/IMG_0794.jpg)
 ![](img/IMG_0812.jpg)
 
-|     | 部品名          | 個数  | 詳細            |
-| --- | ------------ | --- | ------------- |
-| 1   | PCB          | 1   |               |
-| 2   | ランナーI        | 1   |               |
-| 3   | ランナーII       | 1   |               |
-| 4   | トップカバー       | 1   |               |
-| 5   | ノブカバー        | 1   |               |
-| 6   | ネジ（短）        | 2   | M2 6mm        |
-| 7   | ネジ（長）        | 4   | M2 10mm       |
-| 8   | ナット          | 4   | M2            |
-| 9   | インサートナット     | 2   | M2 5mm or 6mm |
-| 10  | ダイオード        | 24  | 1N4148        |
-| 11  | コンデンサー       | 2   | 0.1uF         |
-| 12  | シフトレジスター     | 2   | 74HC595       |
-| 13  | 背面ボタン        | 3   | 3x6x4.3       |
-| 14  | 側面ボタン        | 4   | 3x6x5         |
-| 15  | スライドスイッチ     | 1   | SK12F14       |
-| 16  | マウスボタン       | 2   | YD-003        |
-| 17  | レバーボタン       | 2   | THMU27        |
-| 18  | ロータリーエンコーダー  | 1   | RKJXT1F42001  |
-| 19  | ゴム足          | 5   |               |
-| 20  | ピンヘッダー       | 1   | 40ピン          |
-| 21  | ピンソケット       | 2   | 14ピン          |
-| 22  | MXソケット       | 10  | CPG151101S11  |
-| 23  | 1Uホイールエンコーダー | 2   | THQWGD001C    |
-| 24  | マイコンボード      | 1   | RP2040-Zero   |
+|     | Types                  | Quantities |               |
+| --- | ---------------------- | ---------- | ------------- |
+| 1   | PCB                    | 1          |               |
+| 2   | Runner I               | 1          |               |
+| 3   | Runner II              | 1          |               |
+| 4   | Top cover              | 1          |               |
+| 5   | Knob cover             | 1          |               |
+| 6   | Short screws           | 2          | M2 6mm        |
+| 7   | Long screws            | 4          | M2 10mm       |
+| 8   | Nuts                   | 4          | M2            |
+| 9   | Insert nuts            | 2          | M2 5mm or 6mm |
+| 10  | Diodes                 | 24         | 1N4148        |
+| 11  | Capacitors             | 2          | 0.1uF         |
+| 12  | Shift registers        | 2          | 74HC595       |
+| 13  | Back buttons           | 3          | 3x6x4.3       |
+| 14  | Side buttons           | 4          | 3x6x5         |
+| 15  | Slide switch           | 1          | SK12F14       |
+| 16  | Mouse buttons          | 2          | YD-003        |
+| 17  | Lever buttons          | 2          | THMU27        |
+| 18  | Rotary Encoder         | 1          | RKJXT1F42001  |
+| 19  | Rubber feet            | 5          |               |
+| 20  | Pin header             | 1          | 40pins        |
+| 21  | Pin Sockets            | 2          | 14pins        |
+| 22  | Hotswap Sockets        | 10         | CPG151101S11  |
+| 23  | 1U Wheel Encoder       | 2          | THQWGD001C    |
+| 24  | Micro Controller Board | 1          | RP2040-Zero   |
 
-### 1.2 キット以外に必要なもの
+
+### 1.2 Additional Required
 ![](img/IMG_0816.jpg)
 
-| 部品名                                                          | 個数  |               |
-| ------------------------------------------------------------ | --- | ------------- |
-| [キースイッチ](https://shop.yushakobo.jp/collections/all-switches) | 10  | Cherry MX互換   |
-| [キーキャップ](https://shop.yushakobo.jp/collections/keycaps)      | 10  | キースイッチに対応したもの |
-| [Type-C USBケーブル](https://shop.yushakobo.jp/products/8283)    | 1   | データ転送対応のもの    |
 
-### 1.3 対応しているもの
+| Types              | Quantities  |
+| ---------------- | --- |
+| Keyswitches      | 10  |
+| Keycaps          | 10  |
+| Type-C USB cable | 1   |
 
-ここに書かれているものはご利用にある程度前提知識を必要とします。無線化については下記ビルドガイドをご覧ください。
-- [Cannonball LLの組み立て方（無線化、無線マウス化編）](https://note.com/taro_hayashi/n/n1ee5ece46387)
+### 1.3 Optional
 
-| 部品名                                                                 | 個数  | 備考                                                      |
-| ------------------------------------------------------------------- | --- | ------------------------------------------------------- |
-| [SK-6812MINI-E](https://shop.yushakobo.jp/products/sk6812mini-e-10) | 14  | 発光するようになります。                                            |
-| Choc V1/V2互換のキースイッチ                                                 | 10  | 高さを抑えることができます。MX互換のキースイッチとの共存はできません。ソケット、トッププレートは使いません。 |
-| 絶縁できるテープ、エポシキ接着剤等                                                   | 1   | Chocスイッチを使う場合はピンヘッダの頭を絶縁すると予期しない動作を防ぐことができます。           |
+The items described here require some prerequisite knowledge for use. See the guide below for more information on going wireless.
+- [Cannonball LL(wireless version)](BLE.md)
 
 
-### 1.4 必要な道具
+| Types                    | Quantitie  |                                                                                             |
+| ---------------------- | --- | --------------------------------------------------------------------------------------------- |
+| SK-6812MINI-E          | 14  |                                                                                               |
+| Choc V1/V2 keyswitches | 10  | Height can be reduced. Sockets and top plates are not used.                                   |
+| Tape or glue           | 1   | When using Choc switches, isolate the head of the pin header to prevent unexpected operation. |
+
+### 1.4 Tools required
 ![](img/IMG_1469.jpg)
-はんだごて以外は100円ショップで揃います。はんだごては500円商品なので1000円程度のメーカー品を購入する方がいいと思います。温度調節機能があると部品が壊れにくいです。
-リンク先は画像のおすすめ品です。Amazonアソシエイトの紹介リンクを含みます。
 
 | 道具名                                                 |                                                                            |
 | --------------------------------------------------- | -------------------------------------------------------------------------- |
@@ -76,7 +76,7 @@
 
 
 
-### 1.5 あると便利な道具
+### 1.5 Tools optional
 
 | 道具名                               | 備考                                                                   |
 | --------------------------------- | -------------------------------------------------------------------- |
