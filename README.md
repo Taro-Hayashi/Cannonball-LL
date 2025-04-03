@@ -3,7 +3,11 @@
 [日本語(note)](https://note.com/taro_hayashi/n/n3da1e116aa8d)
 ## 1 組み立てる前に
 ### 1.1 内容品
-![[img/IMG_0794.jpg]]![[img/IMG_0812.jpg]]
+
+![](img/)
+
+![](img/IMG_0794.jpg)
+![](img/IMG_0812.jpg)
 
 |     | 部品名          | 個数  | 詳細            |
 | --- | ------------ | --- | ------------- |
