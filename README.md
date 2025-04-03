@@ -85,15 +85,13 @@ The items described here require some prerequisite knowledge for use. See the gu
 | IPA                               | 
 | Heat-resistant mat                             | 
 | Tester                              |
-| 小皿                                | 
-| 当て木                               |
-| はんだ吸い取り線                          | 
-| デザインナイフ                           |
-| マスキングテープ                          | 
+| Desoldering wire                         | 
+| Design Knife                           |
+| Masking tape                          | 
 
-## 2 組み立ての準備
+## 2  Preparation for assembly
 
-### 2.1 メインボードを切り離す
+### 2.1 Disconnect the mainboard.
 カッターで切れ目を入れて曲げると綺麗に割ることができます。
 ![[img/IMG_0829.jpg]]
 タブはニッパーで切り離し、切断面をやすりがけします。削りすぎると回路を傷つけるので元々の基板端は削らないように気をつけます。
