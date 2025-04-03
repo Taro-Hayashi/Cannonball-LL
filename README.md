@@ -1,6 +1,6 @@
-# Cannonball LL Build Manual
+# Cannonball LL Build
 ![[Cannonballll.jpg]]
-[English(GitHub)](https://github.com/Taro-Hayashi/Cannonball-LL/blob/main/README.md)
+[日本語(note)](https://note.com/taro_hayashi/n/n3da1e116aa8d)
 ## 1 組み立てる前に
 ### 1.1 内容品
 ![[img/IMG_0794.jpg]]![[img/IMG_0812.jpg]]
