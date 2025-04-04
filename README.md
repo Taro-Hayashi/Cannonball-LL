@@ -333,7 +333,7 @@ Remapに標準で用意されている機能のほか、Functions タブに特�
 ノブが緩くなったり1Uホイールエンコーダーのカバーが外れやすい場合ははんだごてで溶かすことで調節、固定することができます。
 上下の締結にゆるみが出たり接触が悪くなった場合はピンヘッダとピンソケットの交換を検討してください。
 ### 6.2 プリント品のプリント用データ
-- [Data for 3D Printing(GitHub)]()
+- [STL.md](STL.md)
 ### 6.3 ファームウェアのコード
 - [keyboards/tarohayashi/cannonballll(GitHub)](https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/cannonballll)
 ### 6.4 保守品の入手先
