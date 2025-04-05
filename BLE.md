@@ -62,18 +62,18 @@ The regulator can be TO92 or SOT23-5. The image shows the sensor set on BOOTH.
 
 ![](img/IMG_1149.jpg)
 
-| シルク印刷    | 部品名     | 個数  |                  | セットの部品 | 入手先の例                                                             |
-| -------- | ------- | --- | ---------------- | ------ | ----------------------------------------------------------------- |
-|          | センサー    | 1   | PMW3610          |        | [Ali Express](https://ja.aliexpress.com/w/wholesale-pmw3610.html) |
-| VR       | レギュレーター | 1   | 3.3V入力1.8~1.9V出力 |        | 秋月電子通商                                                            |
-| C3、C4、C5 | コンデンサー  | 3   | 0.1uF X7R        | 茶104   | 秋月電子通商                                                            |
-| C6、C7    |         | 2   | 0.01uF X7R       | 茶103   | 秋月電子通商                                                            |
-| C8       |         | 1   | 10uF X7R         | 青106k  | 秋月電子通商                                                            |
-| C9       |         | 1   | 3.3uF 16V        | 茶3u3   | 秋月電子通商                                                            |
-| C in     |         | 1   | レギュレーターの入力用      | 茶106k  | 秋月電子通商                                                            |
-| C out    |         | 1   | レギュレーターの出力用      | 茶106k  | 秋月電子通商                                                            |
-| R        | 抵抗      | 1   | 10kΩ             |        | 秋月電子通商                                                            |
-|          | マウスソール  | 5   | 0.65mm〜0.8mm     |        | Amazon.co.jp                                                      |
+|    | Types    | Quantities  |                  |                                                              |
+| -------- | ------- | --- | ---------------- | 
+|          | Sensor & lens    | 1   | PMW3610          | 
+| VR       | Regulator | 1   |  3.3V input 1.8~1.9V output  |
+| C3、C4、C5 | Capacitor  | 3   | 0.1uF X7R        |
+| C6、C7    |         | 2   | 0.01uF X7R       | 
+| C8       |         | 1   | 10uF X7R         | 
+| C9       |         | 1   | 3.3uF 16V        | 
+| C in     |         | 1   | レギュレーターの入力用      |
+| C out    |         | 1   | レギュレーターの出力用      | 
+| R        | Resistor      | 1   | 10kΩ             |        
+|          | Mouse sole  | 5   | 0.65mm〜0.8mm thickness|        
 
 ### 1.3 対応しているもの
 
