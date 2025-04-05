@@ -2,7 +2,6 @@
 ![](../img/included.jpg)
 | File name         |
 | ----------------- |
-| Bottom            |
 | Bottom #1,2       |
 | Side #1 - #9      |
 | Top cover         |
@@ -11,7 +10,6 @@
 | Bottom button     |
 | Reset button      |
 | Bar               |
-| Sensor cover      |
 | Sensor cover #1,2 |
 | Blocker           |
 
@@ -26,3 +24,5 @@
 | Switch plate   |
 | 3-Keys Blocker |
 | Mech knob      |
+| Bottom            |
+| Sensor cover      |
