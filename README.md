@@ -137,17 +137,20 @@ Ensure as few steps as possible with main board #1.
 Cut out the reinforcement with nippers.
 ![](img/IMG_0610.jpg)  
 
-## 3 メインボード#️1のはんだ付け
-### 3.1 はんだ付けで気を付けること
-表面張力でパッドの上だけに溶けたはんだが広がるのをイメージします。フラックスを塗るととても簡単になります。
+## 3 Soldering of main board #️1
+
+### 3.1 Be careful when soldering
+
+Imagine molten solder spreading only on the pad due to surface tension. It is very easy to apply flux.
 ![](img/IMG_0654.jpg)  
-パッドや部品の足をよく熱して基板と部品両方に電気が通るようにします。
-はんだが小さい穴（VIA）と繋がってしまわないように気をつけてください。
+Heat the pads and component legs well to allow electricity to pass through both the board and the components.
+Be careful that the solder does not connect with the small holes (VIA).
 ![](img/IMG_0668.jpg)  
-スルーホールの部品から出る足は2mm程度になるように気をつけます。2.5mmを超えると底面の3Dプリント品と干渉することがあります。
-差し込んだ後にマスキングテープで固定してはんだ付けをすると楽になります。
+Take care that the legs coming out of the through-hole component are around 2 mm; if they exceed 2.5 mm, they may interfere with the 3D printed item on the bottom.
+It is easier to fix them with masking tape after insertion and soldering.
 ![](img/IMG_0647.jpg)  
-また、3Dプリント品の融点は200度前後です。直接はんだごてが当たると溶けてしまうので気をつけます。
+Also, the melting point of 3D printed products is around 200°C. Be careful not to melt the soldering iron if it comes into direct contact with it.
+
 ### 3.2 RP2040-Zeroのはんだ付け
 5V, GP0の位置で裏表を確認して、RP2040-Zero付属のピンヘッダを使って位置を合わせたら手前の8箇所をはんだ付けします。部品を切ったランナーを下に敷くと安定します。
 ![](img/IMG_0616.jpg)  
@@ -346,6 +349,7 @@ Remapに標準で用意されている機能のほか、Functions タブに特�
 ノブが緩くなったり1Uホイールエンコーダーのカバーが外れやすい場合ははんだごてで溶かすことで調節、固定することができます。
 上下の締結にゆるみが出たり接触が悪くなった場合はピンヘッダとピンソケットの交換を検討してください。
 ### 6.2 プリント品のプリント用データ
+オプションのパーツや色を変えたパーツを印刷できます。
 - [STL.md](STL.md)
 ### 6.3 ファームウェアのコード
 - [keyboards/tarohayashi/cannonballll(GitHub)](https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/cannonballll)
