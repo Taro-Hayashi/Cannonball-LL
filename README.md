@@ -133,7 +133,7 @@ Press-fit the insert nut into the printed item in the image. Main board #1 is al
 Apply main board #1 to the backside and press the soldering iron onto the insert nut.
 ![](img/IMG_0598.jpg)  
 Ensure as few steps as possible with main board #1.
-![](img/IMG/IMG_0604.jpg)  
+![](img/IMG_0604.jpg)  
 Cut out the reinforcement with nippers.
 ![](img/IMG_0610.jpg)  
 
@@ -186,7 +186,8 @@ C1とC2にはんだ付けします。
 ![](img/IMG_0686.jpg)  
 
 ### 3.9 背面ボタンのはんだ付け
-背面ボタンは裏側から差し込みます。![](img/IMG_0689.jpg)  
+背面ボタンは裏側から差し込みます。
+![](img/IMG_0689.jpg)  
 ### 3.10  動作の確認
 USBケーブルでPCに接続して側面ボタン、背面ボタンの動作を確認します。8が入力され続ける場合はスライドスイッチを切り替えてください。
 ![](img/IMG_0858.jpg)  
