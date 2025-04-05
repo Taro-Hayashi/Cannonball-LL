@@ -352,22 +352,23 @@ Ensure that the mouse buttons are clickable.
 
 ### 4.8 Soldering of pin headers
 
-Once again, check the orientation and soldering of the components on mainboard #2.  
-If everything looks OK, put it on mainboard #1 and solder the pin headers.
+Check the orientation and soldering of the components on main board #2 again.
+Protect the area on the back of mainboard #2 where the battery hits with tape or a rubber sheet.
 ![](img/IMG_1420.jpg)  
-メインボード#1に乗せてピンヘッダをはんだ付けします。
+Place on mainboard #1 and solder the pin headers.
 ![](img/IMG_1412.jpg)  
 Working one by one, starting with the corner pin headers, while trying to reduce the gaps as much as possible, will produce a clean result.
 
-### 4.9 動作確認
+### 4.9 Checking the operation
 
-ロータリーエンコーダーにランナーIについていたシャフトを取り付けます。
+Attach the shaft from Runner I to the rotary encoder.
 ![](img/IMG_1415.jpg)  
-USBケーブルでPCに接続して動作を確認します。キースイッチを一つ使ってソケットの動作を確認していきます。キースイッチの足が折れないように気をつけてください。
+Connect to a PC to check operation. Check the operation of the socket with one of the keyswitches. Be careful not to break the leg of the keyswitch.
 ![](img/IMG_1426.jpg)  
-動作を確認したらUSBケーブルを取り外します。
-### 4.10 スイッチプレートを取り付ける
-メインボード#2とスイッチプレートの位置を合わせてキースイッチを取り付けてゆきます。
+After checking operation, disconnect the USB cable.
+
+### 4.10 Installing the switch plate
+Align the switch plate with main board #2 and install the keyswitch.
 ![](img/IMG_1430.jpg)  
 The keycap and knob cover are completed when fitted.
 ![](img/IMG_1444.jpg)  
