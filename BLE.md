@@ -110,7 +110,7 @@ The regulator can be TO92 or SOT23-5. The image shows the sensor set on BOOTH.
 | flux|                    |
 | IPA                               | 
 | Heat-resistant mat                             | 
-| Tester                              |
+| Multimater                              |
 | Desoldering wire                         | 
 | Design Knife                           |
 | Masking tape                          | 
@@ -226,7 +226,7 @@ Solder the regulator to VR, capacitors C3 to C9, Cin, Cout and resistor R in the
 ![](img/IMG_1263.jpg)  
 The 3.3uF 16V capacitor on C9 has polarity, so check it before soldering.
 ![](img/IMG_1268.jpg)  
-The 3.3uF 16V capacitor on C9 has polarity, so check it before soldering.
+The regulator of the sensor set is flat side down.
 ![](img/IMG_1272.jpg)  
 Lead-type components are laid down after soldering.
 ![](img/IMG_1273.jpg)  
@@ -242,105 +242,125 @@ Be careful not to damage the lens while working.
 
 ### 3.9 Soldering of pin sockets
 
-ピンソケット、ピンヘッダーを3ピンずつ8つ切り出します。
+Cut out eight pin sockets and pin headers with three pins each.
 ![](img/IMG_0864.jpg)  
-ピンソケットにピンヘッダーの短い方を差し込んで、ピンソケット側をメインボード#1に配置します。
+Insert the short end of the pin header into the pin socket and place the pin socket side on main board #1.
 ![](img/IMG_1302.jpg)  
-ランナーIIの部品を6つ差し込みます。入りにくい場合はピンヘッダーやピンソケットの切れ跡を削ってください。
+Insert the six Runner II components. If they are difficult to insert, shave off the cut marks on the pin headers or pin sockets.
 ![](img/IMG_1479.jpg)  
-メインボード#2をピンヘッダーに合わせてかぶせます（まだはんだ付けしません）。全てのピンヘッダーを通すのが難しい時は無理をして基板を擦らないように数個ずつにします。
+Cover the main board #2 with the pin headers (do not solder yet). If it is difficult to get all the pin headers through, force a few at a time to avoid rubbing the board.
 ![](img/IMG_1306.jpg)  
-裏返したらメインボード#1にピンソケットをはんだ付けします。
+Once flipped over, solder the pin socket to main board #1.
 ![](img/IMG_1311.jpg)  
-はんだ付けが終わったら表に戻してメインボード#2を外します。
-プリント品を外す必要はありません。
+After soldering is complete, return to the front and remove main board #2.  
+Printed items do not need to be removed.
 ![](img/IMG_1479.jpg)  
-メインボード#2をはんだ付けしてしまっていた場合はテコを使って外してください。ピンヘッダが曲がると接触不良の原因となるため垂直に引き抜くことを意識してください。
+If mainboard #2 has been soldered in place, use leverage to remove it. Be aware that if the pin header is bent, it may cause poor contact, so pull it out vertically.
 ![](img/IMG_1433.jpg)  
-テスターがある場合はXIAO BLE、シフトレジスターのGPIOとピンヘッダーが導通していることを確認します。
+If a multimater is available, check that there is continuity between the XIAO BLE, the shift register GPIO and the pin headers.
 ![](img/IMG/test.jpg)  
 
-### 3.10 バッテリーのはんだ付け
-スライドスイッチが画像と同じ状態になっていることを確認してバッテリーをはんだ付けします。
+### 3.10 Battery soldering
+
+Ensure that the slide switch is in the same condition as in the picture and solder the battery.
 ![](img/IMG_1315.jpg)  
-必ず＋と−を確認してください。はんだ付けが終わったらスライドスイッチをオンにしてBluetooth対応機器と接続できるか確かめます。
+Make sure to check + and -. After soldering is finished, turn the slide switch on and check that it can be connected to a Bluetooth-enabled device.
+  
+If you have connection difficulties even though the system is activated, reset the system once with this firmware and then re-install the test firmware.
 
-起動しているのに接続に難がある場合は一度こちらのファームウェアでリセットしてからテストファームウェアを入れ直してください。
 - [settings_reset-seeeduino_xiao_ble-zmk.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/download/0.28.2/settings_reset-seeeduino_xiao_ble-zmk.uf2)
-## 3.11 下半分の組み立て
-ランナーIの部品の小さな穴にRP2040-Zeroのリセットボタン用パーツを溶接します。
+  
+## 3.11 Assembling the lower half
+
+Weld the part for the RP2040-Zero reset button in the small hole in the runner I component.
 ![](img/IMG_1323.jpg)  
-ランナーIの部品を組み合わせ、ランナーIIの部品を5個置きます。中央の部品の向きに気をつけます。
+Combine the parts of runner I and place five parts of runner II. Pay attention to the orientation of the central component.
 ![](img/IMG_1328.jpg)  
-
-ここに乗せるボタンのストッパーの角が干渉するのでニッパーで少し斜めに切ります。
+The corner of the button stopper to be placed here interferes, so it is cut at a slight angle with nippers.
 ![](img/IMG_1440.jpg)  
-
-上からメインボード#1を置き、ランナーIの角の部品の一つにナットを取り付けます。
+Place mainboard #1 on top and fit a nut on one of the corner components of runner I.
 ![](img/IMG_1331.jpg)  
-合計9個のランナーIの部品と4つのナットを取り付けました。
+A total of 9 runner I components and 4 nuts were fitted with long screws.
 ![](img/IMG_1335.jpg)  
-裏面にマウスソールを貼り、安全な場所に保管します。
+Attach the mouse sole to the back and store in a safe place.
 ![](img/IMG_1342.jpg)  
-## 4 メインボード#2のはんだ付け
 
-### 4.1 ダイオードのはんだ付け
-D8からD24までをはんだ付けします。D19以降は取り付ける面が違います。
+## 4 Soldering of mainboard #2
+
+### 4.1 Soldering of diodes
+
+Solder D8 to D24; from D19 onwards the mounting surface is different.
 ![](img/IMG_1344.jpg)  
 ![](img/IMG_1346.jpg)  
-### 4.2 MXソケットのはんだ付け
-S1からS10まではんだ付けします。
+
+### 4.2  Soldering of MX sockets
+
+Solder from S1 to S10.
 ![](img/IMG_1347.jpg)  
-### 4.3  レバーボタンのはんだ付け
-L1、L2に取り付けます。側面にも接点があるのではんだ付けします。
+
+### 4.3  Soldering of lever buttons
+
+Attach to L1 and L2. Solder the contacts on the sides as well.
 ![](img/IMG_1354.jpg)  
-### 4.4 マウスボタンのはんだ付け
-M1、M2に取り付けます。クリックバーの位置をシルク印刷に合わせます。
+
+### 4.4 Soldering of mouse buttons
+
+Attach to M1 and M2. Align the click bar with the silk print.
 ![](img/IMG_1363.jpg)  
-### 4.5  1Uホイールエンコーダーの組み立て
-小袋の部品のうち以下のものを使用します。
+
+### 4.5 Assembling the 1U wheel encoder
+
+The following components of the sachet are used.
 ![](img/IMG_1369.jpg)  
 
-|     | 部品名        | 個数  |               |
+|     | Types        | Quantities|               |
 | --- | ---------- | --- | ------------- |
-| 1   | ホイール       | 2   |               |
-| 2   | シャフト       | 2   |               |
-| 3   | スペーサー      | 2   |               |
-| 4   | ベース        | 2   |               |
-| 5   | カバー        | 2   |               |
-| 6   | ホイールエンコーダー | 2   | 6x6x7         |
-| 7   | クリックボタン    | 2   | 11mm          |
-| 8   | ネジ（小）      | 4   | M2 5mm or 6mm |
-| 9   | ナット        | 4   | M2            |
+| 1   | Wheel       | 2   |               |
+| 2   | Shaft       | 2   |               |
+| 3   | Spacer      | 2   |               |
+| 4   | Base        | 2   |               |
+| 5   | Cover        | 2   |               |
+| 6   | Wheel Encoder | 2   | 6x6x7         |
+| 7   | tactile Button    | 2   | 11mm          |
+| 8   | Short screws    | 4   | M2 5mm or 6mm |
+| 9   | Nut        | 4   | M2            |
 
-E1とE2に、方向を選んでクリックボタンとホイールエンコーダーをはんだ付けします。ビルドガイドでは画像の向きにしました。
+Solder the tactile button and wheel encoder to E1 and E2 in the orientation chosen. The build guide uses the orientation shown in the image.
 ![](img/IMG_1370.jpg)  
-ホイールの平らな面からシャフトを差し込みます。
+Insert the shaft from the flat side of the wheel.
 ![](img/IMG_1378.jpg)  
-エンコーダーにホイールを取り付けます。六角形の穴と六角形の軸が合うようにします。
+Attach the wheel to the encoder. Ensure that the hexagonal holes align with the hexagonal shaft.
 ![](img/IMG_1379.jpg)  
-スペーサーを取り付けてタクトスイッチに乗せます。
+Fit the spacer and place it on the tactile button.
 ![](img/IMG_1386.jpg)  
-ベースをネジとナットで取り付けます。
+Attach the base with screws and nuts.
 ![](img/IMG_1389.jpg)  
-カバーを取り付けます。
+Install the cover.
 ![](img/IMG_1394.jpg)  
-### 4.6 ロータリーエンコーダーのはんだ付け
-STにはんだ付けします。
+
+### 4.6 Soldering rotary encoders
+
+Solder to ST.
 ![](img/IMG_1396.jpg)  
-### 4.7 トップカバーの取り付け
-裏面からネジ（短）で取り付けます。
+
+### 4.7 Installing the top cover
+
+Attach from the rear side with short screws.
 ![](img/IMG_1397.jpg)  
-マウスボタンがクリック可能なことを確認します。
+Ensure that the mouse buttons are clickable.
 ![](img/IMG_1400.jpg)  
-### 4.8 ピンヘッダのはんだ付け
-改めてメインボード#2の部品の向き、はんだ付けの状態を確認します。
-メインボード#2の裏面の、バッテリーが当たる部分をテープやゴムシートなどで保護します。
+
+### 4.8 Soldering of pin headers
+
+Once again, check the orientation and soldering of the components on mainboard #2.  
+If everything looks OK, put it on mainboard #1 and solder the pin headers.
 ![](img/IMG_1420.jpg)  
 メインボード#1に乗せてピンヘッダをはんだ付けします。
 ![](img/IMG_1412.jpg)  
-隙間をできるだけ減らすようにしながら角のピンヘッダから一つずつ作業をすると綺麗に出来上がります。
+Working one by one, starting with the corner pin headers, while trying to reduce the gaps as much as possible, will produce a clean result.
+
 ### 4.9 動作確認
+
 ロータリーエンコーダーにランナーIについていたシャフトを取り付けます。
 ![](img/IMG_1415.jpg)  
 USBケーブルでPCに接続して動作を確認します。キースイッチを一つ使ってソケットの動作を確認していきます。キースイッチの足が折れないように気をつけてください。
