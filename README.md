@@ -398,7 +398,7 @@ In addition to the standard functions provided in Remap, there are special short
 If the knob becomes loose or the 1U wheel encoder cover comes off easily, it can be adjusted and fixed by melting it with a soldering iron.  
 If the top and bottom fastenings become loose or poor contact, consider replacing the pin headers and pin sockets.
 
-### 6.2 Data for printing
+### 6.2 Data for 3D Printing
 
 - [Data for 3D Printing](/stl)
 
