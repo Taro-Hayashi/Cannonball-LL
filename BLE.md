@@ -1,8 +1,10 @@
 # Cannonball LL Build Manual (wireless version) ([日本語](https://note.com/taro_hayashi/n/n3da1e116aa8d))
 
-![](img/IMG/IMG_0243.jpg)
+![](img/IMG/cannonballll.jpg)
 [GitHub(English)](https://github.com/Taro-Hayashi/Cannonball-LL)
+
 ## 1 無線対応で組み立てる前に
+
 ### 1.1 ご注意
 - リチウムポリマーバッテリーは爆発し怪我や火災の原因となりますので使用する場合は取り扱いに十分に注意してください。
 - ファームウェアは自分で作成します。雛形となるZMK Firmwareは公開しています。
