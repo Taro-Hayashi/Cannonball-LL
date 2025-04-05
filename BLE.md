@@ -388,9 +388,9 @@ If the top and bottom fastenings become loose or poor contact, consider replacin
 These pads are connected to the LEDs and the centre push.
 ![]()  
 
-### 5.3 Data for printing
+### 5.3 Data for 3D Printing
 
-- [stl](/stl)
+- [Data for 3D Printing](/stl)
 
 Optional or colour-changed parts can be printed.
 ![](img/IMG_1892.jpg)    
