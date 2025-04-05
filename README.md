@@ -50,7 +50,7 @@
 
 ### 1.3 Optional
 
-The items described here require some prerequisite knowledge for use. See the guide below for more information on going wireless.
+See the guide below for more information on going wireless.
 - [Cannonball LL(wireless version)](BLE.md)
 
 
