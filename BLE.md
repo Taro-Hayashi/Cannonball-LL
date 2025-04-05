@@ -4,59 +4,62 @@
 
 ## 1 Introduction
 
-### 1.1 ご注意
+### 1.1 Attention
+
 - Lithium polymer batteries can explode and cause injury or fire, so handle them with care when in use.
 - You create the firmware yourself. The ZMK Firmware, which serves as a template, is available to the public.
   - https://github.com/Taro-Hayashi/zmk-config-th/tree/Cannonball-LL
 - It is assumed that the user has some familiarity with soldering.
 
-### 1.2 内容品
+### 1.2 Contents
+
 ![](img/IMG_1136.jpg)
 ![](img/IMG_1130.jpg)
 
-|     | 部品名          | 個数  | 詳細            |
-| --- | ------------ | --- | ------------- |
-| 1   | PCB          | 1   |               |
-| 2   | ランナーI        | 1   |               |
-| 3   | ランナーII       | 1   |               |
-| 4   | トップカバー       | 1   |               |
-| 5   | ノブカバー        | 1   |               |
-| 6   | ネジ（短）        | 2   | M2 6mm        |
-| 7   | ネジ（長）        | 4   | M2 10mm       |
-| 8   | ナット          | 4   | M2            |
-| 9   | インサートナット     | 2   | M2 5mm or 6mm |
-| 10  | ダイオード        | 24  | 1N4148        |
-| 11  | コンデンサー       | 2   | 0.1uF         |
-| 12  | シフトレジスター     | 2   | 74HC595       |
-| 13  | 背面ボタン        | 3   | 3x6x4.3       |
-| 14  | 側面ボタン        | 4   | 3x6x5         |
-| 15  | スライドスイッチ     | 1   | SK12F14       |
-| 16  | マウスボタン       | 2   | YD-003        |
-| 17  | レバーボタン       | 2   | THMU27        |
-| 18  | ロータリーエンコーダー  | 1   | RKJXT1F42001  |
-| 19  | ゴム足          | 5   |               |
-| 20  | ピンヘッダー       | 1   | 40ピン          |
-| 21  | ピンソケット       | 2   | 14ピン          |
-| 22  | MXソケット       | 10  | CPG151101S11  |
-| 23  | 1Uホイールエンコーダー | 2   | THQWGD001C    |
-| 24  | マイコンボード      | 1   | RP2040-Zero   |
+|     | Types                  | Quantities |               |
+| --- | ---------------------- | ---------- | ------------- |
+| 1   | PCB                    | 1          |               |
+| 2   | Runner I               | 1          |               |
+| 3   | Runner II              | 1          |               |
+| 4   | Top cover              | 1          |               |
+| 5   | Knob cover             | 1          |               |
+| 6   | Short screws           | 2          | M2 6mm        |
+| 7   | Long screws            | 4          | M2 10mm       |
+| 8   | Nuts                   | 4          | M2            |
+| 9   | Insert nuts            | 2          | M2 5mm or 6mm |
+| 10  | Diodes                 | 24         | 1N4148        |
+| 11  | Capacitors             | 2          | 0.1uF         |
+| 12  | Shift registers        | 2          | 74HC595       |
+| 13  | back buttons           | 3          | 3x6x4.3       |
+| 14  | Side buttons           | 4          | 3x6x5         |
+| 15  | Slide switch           | 1          | SK12F14       |
+| 16  | Mouse buttons          | 2          | YD-003        |
+| 17  | Lever buttons          | 2          | THMU27        |
+| 18  | Rotary Encoder         | 1          | RKJXT1F42001  |
+| 19  | Rubber feet            | 5          |               |
+| 20  | Pin header             | 1          | 40pins        |
+| 21  | Pin Sockets            | 2          | 14pins        |
+| 22  | Hotswap Sockets        | 10         | CPG151101S11  |
+| 23  | 1U Wheel Encoder       | 2          | THQWGD001C    |
+| 24  | Micro Controller Board | 1          | RP2040-Zero   |
 
-### 1.2 キット以外に必要なもの
+### 1.2 Additional required
 ![](img/IMG_1192.jpg)
 
-| 部品名               | 個数  |         | 入手先の例        |
-| ----------------- | --- | ------- | ------------ |
-| Cherry MX互換キースイッチ | 10  |         | 遊舎工房         |
-| 対応したキーキャップ        | 10  |         | 遊舎工房         |
-| Type-C USBケーブル    | 1   |         | 遊舎工房         |
-| XIAO BLE          | 1   |         | 秋月電子通商       |
-| 配線材               | 1   | AWG26程度 | 秋月電子通商       |
-| LiPo バッテリー        | 1   | ~603035 | Amazon.co.jp |
-| 保護用のテープ、ゴムシート等    | 1   |         | 秋月電子通商       |
+| Types              | Quantities  |
+| ---------------- | --- |
+| Keyswitches      | 10  |
+| Keycaps          | 10  |
+| XIAO BLE | 1   |
+| Lead wire | 1   |
+| LiPo battery | 1   |
+| Protective tape, rubber sheeting, etc.
+ | 1   |
 
-### 1.3 無線マウス化に追加で必要なもの
-コンデンサー、抵抗はリードタイプか1206、0805のパッケージに対応しています。
-レギュレーターはTO92かSOT23-5のものが使えます。画像はセンサーセットのものです。
+### 1.3 Further additional required to a wireless mouse
+Capacitors and resistors are available in leaded or 1206 and 0805 packages.
+The regulator can be TO92 or SOT23-5. The image shows the sensor set on BOOTH.
+
 ![](img/IMG_1149.jpg)
 
 | シルク印刷    | 部品名     | 個数  |                  | セットの部品 | 入手先の例                                                             |
