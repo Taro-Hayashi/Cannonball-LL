@@ -112,7 +112,7 @@ Runner I has 3 components and runner II has 17 components.
 
 ### 2.3 Remove the shift register and rotary encoder from the case
 
-The shift register is pressed from the back with the runner II component (leverage). Be careful not to prick your finger with the pin.
+The shift register is pressed from the back with the runner II component (leverage). Be careful not to prick your finger with the pin.  
 For the rotary encoder, cut the left and right claws with nippers.
 ![](img/IMG_0555.jpg)
 
@@ -145,10 +145,10 @@ Cut out the reinforcement with nippers.
 
 Imagine molten solder spreading only on the pad due to surface tension. It is very easy to apply flux.
 ![](img/IMG_0654.jpg)  
-Heat the pads and component legs well to allow electricity to pass through both the board and the components.
+Heat the pads and component legs well to allow electricity to pass through both the board and the components.  
 Be careful that the solder does not connect with the small holes (VIA).
 ![](img/IMG_0668.jpg)  
-Take care that the legs coming out of the through-hole component are around 2 mm; if they exceed 2.5 mm, they may interfere with the 3D printed item on the bottom.
+Take care that the legs coming out of the through-hole component are around 2 mm; if they exceed 2.5 mm, they may interfere with the 3D printed item on the bottom.  
 It is easier to fix them with masking tape after insertion and soldering.
 ![](img/IMG_0647.jpg)  
 Also, the melting point of 3D printed products is around 200°C. Be careful not to melt the soldering iron if it comes into direct contact with it.
@@ -180,13 +180,13 @@ Leave one leg.
 
 ### 3.5 Soldering of shift registers
 
-Insert the legs into SR1 and SR2 without breaking them, and solder them after checking that all the legs are sticking out from the back.
+Insert the legs into SR1 and SR2 without breaking them, and solder them after checking that all the legs are sticking out from the back.  
 Align the circle mark with the direction of the chip on the package.
 ![](img/IMG_0670.jpg)  
 
 ### 3.6  Soldering of capacitors
 
-Solder to C1 and C2.
+Solder to C1 and C2.  
 Make sure it says 104. If it is not, this is a packaging error and this step should be skipped. The capacitor will work without it.
 ![](img/IMG_0678.jpg)  
 
@@ -224,7 +224,7 @@ Cover the main board #2 with the pin headers (do not solder yet). If it is diffi
 ![](img/IMG_0887.jpg)  
 Once flipped over, solder the pin socket to main board #1.
 ![](img/IMG_0904.jpg)  
-After soldering is complete, return to the front and remove main board #2.
+After soldering is complete, return to the front and remove main board #2.  
 Printed items do not need to be removed.
 ![](img/IMG_0909.jpg)  
 If mainboard #2 has been soldered in place, use leverage to remove it. Be aware that if the pin header is bent, it may cause poor contact, so pull it out vertically.
@@ -312,7 +312,7 @@ Ensure that the mouse buttons are clickable.
 
 ### 4.9 Soldering of pin headers
 
-Once again, check the orientation and soldering of the components on mainboard #2.
+Once again, check the orientation and soldering of the components on mainboard #2.  
 If everything looks OK, put it on mainboard #1 and solder the pin headers.
 ![](img/IMG_1019.jpg)  
 Working one by one, starting with the corner pin headers, while trying to reduce the gaps as much as possible, will produce a clean result.
@@ -395,7 +395,7 @@ In addition to the standard functions provided in Remap, there are special short
 
 ### 6.1 Maintenance
 
-If the knob becomes loose or the 1U wheel encoder cover comes off easily, it can be adjusted and fixed by melting it with a soldering iron.
+If the knob becomes loose or the 1U wheel encoder cover comes off easily, it can be adjusted and fixed by melting it with a soldering iron.  
 If the top and bottom fastenings become loose or poor contact, consider replacing the pin headers and pin sockets.
 
 ### 6.2 Data for printing
