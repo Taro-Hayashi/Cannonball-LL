@@ -237,7 +237,7 @@ Combine the parts of runner I and place five parts of runner II. Pay attention t
 ![](img/IMG_0901.jpg)  
 Place mainboard #1 on top and fit a nut on one of the corner components of runner I.
 ![](img/IMG_0917.jpg)  
-A total of 9 runner I components and 4 nuts were fitted.
+A total of 9 runner I components and 4 nuts were fitted with long screws.
 ![](img/IMG_0921.jpg)  
 
 ## 4 Soldering of mainboard #2
@@ -268,9 +268,9 @@ Attach to L1 and L2. Solder the contacts on the sides as well.
 Attach to M1 and M2. Align the click bar with the silk print.
 ![](img/IMG_0959.jpg)  
 
-### 4.6  Assembling the 1U wheel encoder
+### 4.6 Assembling the 1U wheel encoder
 
-The following components of the sachet are used
+The following components of the sachet are used.
 ![](img/IMG_0854.jpg)  
 
 |     | Types        | Quantities|               |
