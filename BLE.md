@@ -1,4 +1,4 @@
-# Cannonball LL Build Manual (wireless version) ([日本語](https://note.com/taro_hayashi/n/n3da1e116aa8d))
+# Cannonball LL Build Manual (wireless version) ([日本語](https://note.com/taro_hayashi/n/n1ee5ece46387))
 
 ![](img/IMG_0243.jpg)  
 
