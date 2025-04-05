@@ -229,18 +229,21 @@ Printed items do not need to be removed.
 ![](img/IMG_0909.jpg)  
 If mainboard #2 has been soldered in place, use leverage to remove it. Be aware that if the pin header is bent, it may cause poor contact, so pull it out vertically.
 ![](img/IMG_1114.jpg)  
-テスターがある場合はRP2040-Zero、シフトレジスターのGPIOとピンヘッダーが導通していることを確認します。
+If a tester is available, check that there is continuity between the GPIO and pin headers of the RP2040-Zero and shift register.
 ![](test2.jpg)  
-## 3.12 下半分の組み立て
-ランナーIの部品を組み合わせ、ランナーIIの部品を5個置きます。中央の部品の向きに気をつけます。
+
+## 3.12 Assembling the lower half
+Combine the parts of runner I and place five parts of runner II. Pay attention to the orientation of the central component.
 ![](img/IMG_0901.jpg)  
-上からメインボード#1を置き、ランナーIの角の部品の一つにナットを取り付けます。
+Place mainboard #1 on top and fit a nut on one of the corner components of runner I.
 ![](img/IMG_0917.jpg)  
-合計9個のランナーIの部品と4つのナットを取り付けました。
+A total of 9 runner I components and 4 nuts were fitted.
 ![](img/IMG_0921.jpg)  
+
 ## 4 メインボード#2のはんだ付け
 
 ### 4.1（オプション）SK6812MINI-Eのはんだ付け
+
 L5からL14にはんだ付けします。メインボード#2では発光面が反対側に向きます。
 ![](img/IMG_0926.jpg)  
 ### 4.2 ダイオードのはんだ付け
