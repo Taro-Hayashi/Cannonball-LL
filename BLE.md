@@ -224,7 +224,7 @@ After checking, disconnect the cable. The slide switch is used to switch the bat
 
 Solder the regulator to VR, capacitors C3 to C9, Cin, Cout and resistor R in the white box.
 ![](img/IMG_1263.jpg)  
-C9の3.3uF 16Vのコンデンサーには極性があるので確認してからはんだ付けします。
+The 3.3uF 16V capacitor on C9 has polarity, so check it before soldering.
 ![](img/IMG_1268.jpg)  
 The 3.3uF 16V capacitor on C9 has polarity, so check it before soldering.
 ![](img/IMG_1272.jpg)  
