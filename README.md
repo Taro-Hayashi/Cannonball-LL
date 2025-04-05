@@ -63,6 +63,7 @@ The items described here require some prerequisite knowledge for use. See the gu
 | Tape or glue           | 1   | When using Choc switches, isolate the head of the pin header to prevent unexpected operation. |
 
 ### 1.4 Tools required
+
 ![](img/IMG_1469.jpg)  
 
 | Types                                                | 
@@ -94,15 +95,18 @@ The items described here require some prerequisite knowledge for use. See the gu
 ## 2  Preparation for assembly
 
 ### 2.1 Disconnect the mainboard.
-It can be split cleanly by cutting a slit with a cutter and bending it.  
+
+It can be split cleanly by cutting a slit with a cutter and bending it.
 ![](img/IMG_0829.jpg)  
-タブはニッパーで切り離し、切断面をやすりがけします。削りすぎると回路を傷つけるので元々の基板端は削らないように気をつけます。
+The tabs are cut away with nippers and the cut surfaces are sanded. Be careful not to remove the original board edges, as over-shaving will damage the circuitry.
 ![](img/IMG_0831.jpg)  
-ここはギザギザのままでも完成形に影響がありません。
+This area can be left jagged without affecting the finished form.
 ![](img/IMG_0840.jpg)  
-メインボード#1、メインボード#2、スイッチプレートの3つに分割できました。
+It could be divided into three parts: main board #1, main board #2 and switch plate.
 ![](img/IMG_0846.jpg)  
-### 2.2ランナーから部品を外す
+
+### 2.2 Remove parts from the runner.
+
 ランナーIには部品が3つ、ランナーIIには部品が17個付いています。
 ![](img/IMG_0543 1.jpg)  
 ### 2.3 シフトレジスターとロータリーエンコーダーをケースから外す
