@@ -61,6 +61,8 @@ See the guide below for more information on going wireless.
 | Tape or glue           | 1   | When using Choc switches, isolate the head of the pin header to prevent unexpected operation. |
 | [3-keys blocker](stl/)           | 1   | Blocks the palm of the hand when held. |
 | [Switch plate](stl/)           | 1   | 3DP switch plate with invisible pin header heads. |
+| Strap         |    | |
+
 
 ### 1.4 Tools required
 
