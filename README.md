@@ -57,7 +57,7 @@ The items described here require some prerequisite knowledge for use. See the gu
 | Types                    | Quantitie  |                                                                                             |
 | ---------------------- | --- | --------------------------------------------------------------------------------------------- |
 | SK-6812MINI-E          | 14  |                                                                                               |
-| Choc V1/V2 keyswitches | 10  | Height can be reduced. Sockets and top plates are not used.                                   |
+| Choc V1/V2 keyswitches | 10  | Height can be reduced. Sockets and top plates are not used. It cannot coexist with MX switches.                                   |
 | Tape or glue           | 1   | When using Choc switches, isolate the head of the pin header to prevent unexpected operation. |
 
 ### 1.4 Tools required
