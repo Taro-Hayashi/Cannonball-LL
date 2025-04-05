@@ -118,44 +118,58 @@ The regulator can be TO92 or SOT23-5. The image shows the sensor set on BOOTH.
 
 ## 2 Preparation for assembly
 
-### 2.1 メインボードを切り離す
-カッターで切れ目を入れて曲げると綺麗に割ることができます。
+### 2.1 Disconnect the mainboard
+
+It can be split cleanly by cutting a slit with a cutter and bending it.
 ![](img/IMG_1160.jpg)
-タブはニッパーで切り離し、切断面をやすりがけします。削りすぎると回路を傷つけるので元々の基板端は削らないように気をつけます。
+The tabs are cut away with nippers and the cut surfaces are sanded. Be careful not to remove the original board edges, as over-shaving will damage the circuitry.
 ![](img/IMG_1169.jpg)
-ここはギザギザのままでも見えなくなります。
+This area can be left jagged without affecting the finished form.
 ![](img/IMG_1173.jpg)
-メインボード#1、メインボード#2、スイッチプレートの3つに分割できました。
+It could be divided into three parts: main board #1, main board #2 and switch plate.
 ![](img/IMG_1176.jpg)
-### 2.2ランナーから部品を外す
-ランナーIには部品が3つ、ランナーIIには部品が17個付いています。
+
+### 2.2 Remove parts from the runner
+
+Runner I has 3 components and runner II has 17 components.
 ![](img/IMG_1181.jpg)
-### 2.3 シフトレジスターとロータリーエンコーダーをケースから外す
-シフトレジスターはランナーIIの部品（テコ）で裏から押します。ピンで指を刺さないよう気をつけます。
-ロータリーエンコーダーは左右の爪をニッパーで切ります。
+
+### 2.3 Remove the shift register and rotary encoder from the case
+
+The shift register is pressed from the back with the runner II component (leverage). Be careful not to prick your finger with the pin.  
+For the rotary encoder, cut the left and right claws with nippers.
 ![](img/IMG_1188.jpg)
-### 2.4 テストファームウェアを書き込む
-こちらのuf2ファイルをダウンロードしてください。
+
+### 2.4 Write test firmware
+
+Download the uf2 file here.
+
 - [Cannonball_LL-seeeduino_xiao_ble-zmk.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/download/0.28.2/Cannonball_LL-seeeduino_xiao_ble-zmk.uf2)
 
-XIAO BLEをUSBケーブルでPCに接続したら小さなリセットボタンを2回素早く押します。
+Once the XIAO BLE is connected to the PC via the USB cable, press the small reset button twice quickly.
 ![](img/IMG_1220.jpg)
-XIAO-SENSEドライブとして認識されるのでuf2ファイルをドラッグ&ドロップします。
+Drag and drop the uf2 file as it is recognised as a XIAO-SENSE drive.
 ![](img/IMG/xiao.jpg)
-これでキーボードとして認識されるようになります。
-### 2.5 インサートナットの圧入
-画像のプリント品にインサートナットを圧入します。メインボード#1も使用します。
+It will now be recognised as a keyboard.
+
+### 2.5 Press fitting of insert nuts
+
+Press-fit the insert nut into the printed item in the image. Main board #1 is also used.
 ![](img/IMG_1199.jpg)
-メインボード#1を裏面に当て、インサートナットにはんだごてを押し付けます。
+Apply main board #1 to the backside and press the soldering iron onto the insert nut.
 ![](img/IMG_1204.jpg)
-メインボード#1と出来るだけ段差がないようにします。
+Ensure as few steps as possible with main board #1.
 ![](img/IMG_1212.jpg)
-補強材をニッパーで切り取ります。
+Cut out the reinforcement with nippers.
 ![](img/IMG_1218.jpg)
-## 3 メインボード#️1のはんだ付け
-- XIAO BLEに付属することがあるピンヘッダは同梱のものより細いため、混同しないように捨ててください。
-- この組み立て方では動作確認を優先してマウス化の部品を後回しにしていますが、はんだ付けは背の低い部品から行う方が楽です。
-### 3.1 はんだ付けで気を付けること
+
+## 3 Soldering of main board #️1
+
+- The pin headers that may come with the XIAO BLE are thinner than those included and should be discarded to avoid confusion.
+- In this build manual, priority is given to checking the operation, and the mouse-ising components are put off until later, but it is easier to solder from the shortest components first.
+
+### 3.1 Be careful when soldering
+
 表面張力でパッドの上だけに溶けたはんだが広がるのをイメージします。フラックスを塗るととても簡単になります。
 ![](img/IMG_0654.jpg)
 パッドや部品の足をよく熱して基板と部品両方に電気が通るようにします。
@@ -167,6 +181,7 @@ XIAO-SENSEドライブとして認識されるのでuf2ファイルをドラッ�
 また、3Dプリント品の融点は200度前後です。直接はんだごてが当たると溶けてしまうので気をつけます。
 
 ### 3.2 XIAO BLEのはんだ付け
+
 5V（VUSB)、GP0の位置で裏表を確認してはんだ付けします。
 ![](img/IMG_1228.jpg)
 裏面のRESET（1）とBAT+（2）のパッドを配線します。
@@ -322,22 +337,23 @@ USBケーブルでPCに接続して動作を確認します。キースイッチ
 ### 4.10 スイッチプレートを取り付ける
 メインボード#2とスイッチプレートの位置を合わせてキースイッチを取り付けてゆきます。
 ![](img/IMG_1430.jpg)
-キーキャップとノブカバーを取り付けたら完成です。
+The keycap and knob cover are completed when fitted.
 ![](img/IMG_1444.jpg)
 
-ZMKのリポジトリはこちらです。
+My ZMK repository is here.
 - https://github.com/Taro-Hayashi/zmk-config-th/tree/Cannonball-LL
 
 ## 5 Misc
 
 ### 5.1 Maintenance
 
-If the knob becomes loose or the 1U wheel encoder cover comes off easily, it can be adjusted and fixed by melting it with a soldering iron.
+If the knob becomes loose or the 1U wheel encoder cover comes off easily, it can be adjusted and fixed by melting it with a soldering iron.  
 If the top and bottom fastenings become loose or poor contact, consider replacing the pin headers and pin sockets.
 
 ### 5.2 About unused pads
 
-これらのパッドはLEDとセンタープッシュに繋がっています。
+These pads are connected to the LEDs and the centre push.
+![]()  
 
 ### 5.3 Data for printing
 
