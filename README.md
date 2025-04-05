@@ -115,23 +115,28 @@ For the rotary encoder, cut the left and right claws with nippers.b
 ![](img/IMG_0555.jpg)]
 
 ### 2.4 Write test firmware
-こちらのuf2ファイルをダウンロードしてください。
+
+Download the uf2 file here.
+
 - [tarohayashi_cannonballll_test.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/latest/download/tarohayashi_cannonballll_test.uf2)
 
-BOOTボタンを押しながらUSBケーブルでPCに接続します。
+Connect to the PC via USB cable while pressing the BOOT button.
 ![](img/IMG_0581.jpg)  
-RPI-RP2ドライブとして認識されるのでuf2ファイルをドラッグ&ドロップします。
+Drag and drop the uf2 file as it is recognised as an RPI-RP2 drive.
 ![](img/drive.png)
-これでキーボードとして認識されるようになります。
-### 2.5 インサートナットの圧入
-画像のプリント品にインサートナットを圧入します。メインボード#1も使用します。
+It will now be recognised as a keyboard.
+
+### 2.5 Press fitting of insert nuts
+
+Press-fit the insert nut into the printed item in the image. Main board #1 is also used.
 ![](img/IMG_0589.jpg)  
-メインボード#1を裏面に当て、インサートナットにはんだごてを押し付けます。
+Apply main board #1 to the backside and press the soldering iron onto the insert nut.
 ![](img/IMG_0598.jpg)  
-メインボード#1と出来るだけ段差がないようにします。
+Ensure as few steps as possible with main board #1.
 ![](img/IMG_0604.jpg)  
-補強材をニッパーで切り取ります。
+Cut out the reinforcement with nippers.
 ![](IMG_0610.jpg)  
+
 ## 3 メインボード#️1のはんだ付け
 ### 3.1 はんだ付けで気を付けること
 表面張力でパッドの上だけに溶けたはんだが広がるのをイメージします。フラックスを塗るととても簡単になります。
