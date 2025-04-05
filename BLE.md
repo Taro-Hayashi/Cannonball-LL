@@ -170,48 +170,58 @@ Cut out the reinforcement with nippers.
 
 ### 3.1 Be careful when soldering
 
-表面張力でパッドの上だけに溶けたはんだが広がるのをイメージします。フラックスを塗るととても簡単になります。
+Imagine molten solder spreading only on the pad due to surface tension. It is very easy to apply flux.
 ![](img/IMG_0654.jpg)  
-パッドや部品の足をよく熱して基板と部品両方に電気が通るようにします。
-はんだが小さい穴（VIA）と繋がってしまわないように気をつけてください。
+Heat the pads and component legs well to allow electricity to pass through both the board and the components.  
+Be careful that the solder does not connect with the small holes (VIA).
 ![](img/IMG_0668.jpg)  
-スルーホールの部品から出る足は2mm程度になるように気をつけます。2.5mmを超えると底面の3Dプリント品と干渉することがあります。
-差し込んだ後にマスキングテープで固定してはんだ付けをすると楽になります。
+Take care that the legs coming out of the through-hole component are around 2 mm; if they exceed 2.5 mm, they may interfere with the 3D printed item on the bottom.  
+It is easier to fix them with masking tape after insertion and soldering.
 ![](img/IMG_0647.jpg)  
-また、3Dプリント品の融点は200度前後です。直接はんだごてが当たると溶けてしまうので気をつけます。
+Also, the melting point of 3D printed products is around 200°C. Be careful not to melt the soldering iron if it comes into direct contact with it.
 
-### 3.2 XIAO BLEのはんだ付け
+### 3.2 Soldering XIAO BLE
 
-5V（VUSB)、GP0の位置で裏表を確認してはんだ付けします。
+5 V (VUSB), solder the device in the GP0 position, making sure it is on the reverse side.
 ![](img/IMG_1228.jpg)  
-裏面のRESET（1）とBAT+（2）のパッドを配線します。
-RESETのパッドは剥がれるとリセットボタンも使えなくなってしまうので配線材を引っ張らないように気をつけるか、はんだ付けしないことも検討してください（背面ボタンでのリセットはできなくなります）。
+Wire the RESET (1) and BAT+ (2) pads on the back.  
+Be careful not to pull on the wiring material or consider not soldering the RESET pad, as if it is stripped, the reset button will also be unusable (resetting with the rear button will not be possible).
 ![](img/IMG_1230.jpg)  
-（オプション）マウス化する場合はNFCの二つも配線します。
+(Optional) If you want to convert it to a mouse, you can also wire two NFC's.
 ![](img/IMG_1233.jpg)  
-ランナーIの部品と干渉しないように気をつけます。
+Take care not to interfere with runner I components.
 ![](img/IMG_1237.jpg)  
-### 3.3 ダイオード、シフトレジスターのはんだ付け
-D1からD7、SR1、SR2にマークを目印にしてはんだ付けします。
+
+### 3.3 Soldering of diodes and shift registers
+
+Solder D1 to D7, SR1 and SR2 using the marks as landmarks.
 ![](img/IMG_1241.jpg)  
 
-### 3.4 コンデンサーのはんだ付け
-C1とC2にはんだ付けします。104と書いてあります。センサーセットのものは少し小さく特性が違うので間違えないように気をつけます。
+### 3.4 Soldering of capacitors
+
+Solder to C1 and C2, marked 104. The ones in the sensor set are slightly smaller and have different characteristics, so be careful not to make a mistake.
 ![](img/IMG_1246.jpg)  
-### 3.5 側面ボタンとスライドスイッチのはんだ付け
-側面ボタン4つをSS1からSS4に、スライドスイッチ1つをSLに差し込んではんだ付けします。
+
+### 3.5 Soldering side buttons and slide switches
+
+Plug and solder the four side buttons SS1 to SS4 and one slide switch to SL.
 ![](img/IMG_1249.jpg)  
 
-### 3.6 背面ボタンのはんだ付け
-背面ボタンは裏側から差し込みます。
+### 3.6 Soldering of back buttons
+
+The back button is inserted from the backside.
 ![](img/IMG_1253.jpg)  
+
 ### 3.7 動作の確認
+
 USBケーブルでPCに接続して側面ボタンと、背面ボタンのうち並んだ2つの動作を確認します。
 ![](img/IMG_1256.jpg)  
 残りの背面ボタンを2回すばやく押してXIAO-SENSEドライブが出てくることを確認します。ファームウェアの更新の際に使います。
 ![](img/IMG_1259.jpg)  
 確認をしたらケーブルを外します。スライドスイッチはバッテリーのオンオフに使われます。
+
 ### 3.8  （オプション）マウス化用部品のはんだ付け
+
 白枠内にレギュレーターをVR、コンデンサーをC3からC9、Cin、Cout、抵抗をRにはんだ付けします。
 ![](img/IMG_1263.jpg)  
 C9の3.3uF 16Vのコンデンサーには極性があるので確認してからはんだ付けします。
@@ -229,7 +239,9 @@ C9の3.3uF 16Vのコンデンサーには極性があるので確認してから
 ![](img/IMG_1292.jpg)  
 動かない場合はコンデンサーが間違っていたり足がブリッジしていないか確認してみてください。
 作業中はレンズを傷つけないように気をつけます。
+
 ### 3.9 ピンソケットのはんだ付け
+
 ピンソケット、ピンヘッダーを3ピンずつ8つ切り出します。
 ![](img/IMG_0864.jpg)  
 ピンソケットにピンヘッダーの短い方を差し込んで、ピンソケット側をメインボード#1に配置します。
