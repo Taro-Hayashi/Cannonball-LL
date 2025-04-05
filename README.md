@@ -112,7 +112,7 @@ Runner I has 3 components and runner II has 17 components.
 
 ### 2.3 Remove the shift register and rotary encoder from the case
 
-The shift register is pressed from the back with the runner II component (lever). Be careful not to prick your finger with the pin.
+The shift register is pressed from the back with the runner II component (leverage). Be careful not to prick your finger with the pin.
 For the rotary encoder, cut the left and right claws with nippers.
 ![](img/IMG_0555.jpg)
 
@@ -214,20 +214,20 @@ After checking, disconnect the cable. Soldering with the power on may cause a fa
 
 ### 3.11 Soldering of pin sockets
 
-ピンソケット、ピンヘッダーを3ピンずつ8つ切り出します。
+Cut out eight pin sockets and pin headers with three pins each.
 ![](img/IMG_0864.jpg)  
-ピンソケットにピンヘッダーの短い方を差し込んで、ピンソケット側をメインボード#1に配置します。
+Insert the short end of the pin header into the pin socket and place the pin socket side on main board #1.
 ![](img/IMG_0872.jpg)  
-ランナーIIの部品を6つ差し込みます。入りにくい場合はピンヘッダーやピンソケットの切れ跡を削ってください。
+Insert the six Runner II components. If they are difficult to insert, shave off the cut marks on the pin headers or pin sockets.
 ![](img/IMG_0882.jpg)  
-メインボード#2をピンヘッダーに合わせてかぶせます（まだはんだ付けしません）。全てのピンヘッダーを通すのが難しい時は無理をして基板を擦らないように数個ずつにします。
+Cover the main board #2 with the pin headers (do not solder yet). If it is difficult to get all the pin headers through, force a few at a time to avoid rubbing the board.
 ![](img/IMG_0887.jpg)  
-裏返したらメインボード#1にピンソケットをはんだ付けします。
+Once flipped over, solder the pin socket to main board #1.
 ![](img/IMG_0904.jpg)  
-はんだ付けが終わったら表に戻してメインボード#2を外します。
-プリント品は外す必要はありません。
+After soldering is complete, return to the front and remove main board #2.
+Printed items do not need to be removed.
 ![](img/IMG_0909.jpg)  
-メインボード#2をはんだ付けしてしまっていた場合はテコを使って外してください。ピンヘッダが曲がると接触不良の原因となるため垂直に引き抜くことを意識してください。
+If mainboard #2 has been soldered in place, use leverage to remove it. Be aware that if the pin header is bent, it may cause poor contact, so pull it out vertically.
 ![](img/IMG_1114.jpg)  
 テスターがある場合はRP2040-Zero、シフトレジスターのGPIOとピンヘッダーが導通していることを確認します。
 ![](test2.jpg)  
