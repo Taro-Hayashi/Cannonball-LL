@@ -240,67 +240,85 @@ Place mainboard #1 on top and fit a nut on one of the corner components of runne
 A total of 9 runner I components and 4 nuts were fitted.
 ![](img/IMG_0921.jpg)  
 
-## 4 メインボード#2のはんだ付け
+## 4 Soldering of mainboard #2
 
-### 4.1（オプション）SK6812MINI-Eのはんだ付け
+### 4.1 (Optional) Soldering the SK6812MINI-E
 
-L5からL14にはんだ付けします。メインボード#2では発光面が反対側に向きます。
+Solder from L5 to L14. On main board #2, the light-emitting surface faces the other way.
 ![](img/IMG_0926.jpg)  
-### 4.2 ダイオードのはんだ付け
-D8からD24までをはんだ付けします。D19以降は取り付ける面が違います。
+
+### 4.2 Soldering of diodes
+
+Solder D8 to D24; from D19 onwards the mounting surface is different.
 ![](img/IMG_0930.jpg)  
 ![](img/IMG_0933.jpg)  
-### 4.3 MXソケットのはんだ付け
-S1からS10まではんだ付けします。ソケットには必要なはんだの量が多めです。
+
+### 4.3 Soldering of MX sockets
+
+Solder from S1 to S10. The amount of solder required for the socket is greater.
 ![](img/IMG_0946.jpg)  
-### 4.4  レバーボタンのはんだ付け
-L1、L2に取り付けます。側面にも接点があるのではんだ付けします。
+
+### 4.4  Soldering of lever buttons
+
+Attach to L1 and L2. Solder the contacts on the sides as well.
 ![](img/IMG_0954.jpg)  
-### 4.5 マウスボタンのはんだ付け
-M1、M2に取り付けます。クリックバーの位置をシルク印刷に合わせます。
+
+### 4.5 Soldering of mouse buttons
+
+Attach to M1 and M2. Align the click bar with the silk print.
 ![](img/IMG_0959.jpg)  
-### 4.6  1Uホイールエンコーダーの組み立て
-小袋の部品のうち以下のものを使用します。
+
+### 4.6  Assembling the 1U wheel encoder
+
+The following components of the sachet are used
 ![](img/IMG_0854.jpg)  
 
-|     | 部品名        | 個数  |               |
+|     | Types        | Quantities|               |
 | --- | ---------- | --- | ------------- |
-| 1   | ホイール       | 2   |               |
-| 2   | シャフト       | 2   |               |
-| 3   | スペーサー      | 2   |               |
-| 4   | ベース        | 2   |               |
-| 5   | カバー        | 2   |               |
-| 6   | ホイールエンコーダー | 2   | 6x6x7         |
-| 7   | クリックボタン    | 2   | 11mm          |
-| 8   | ネジ（小)    | 4   | M2 5mm or 6mm |
-| 9   | ナット        | 4   | M2            |
+| 1   | Wheel       | 2   |               |
+| 2   | Shaft       | 2   |               |
+| 3   | Spacer      | 2   |               |
+| 4   | Base        | 2   |               |
+| 5   | Cover        | 2   |               |
+| 6   | Wheel Encoder | 2   | 6x6x7         |
+| 7   | tactile Button    | 2   | 11mm          |
+| 8   | Short screws    | 4   | M2 5mm or 6mm |
+| 9   | Nut        | 4   | M2            |
 
-E1とE2に、方向を選んでクリックボタンとホイールエンコーダーをはんだ付けします。ビルドガイドでは画像の向きにしました。
+Solder the tactile button and wheel encoder to E1 and E2 in the orientation chosen. The build guide uses the orientation shown in the image.
 ![](img/IMG_0963.jpg)  
-ホイールの平らな面からシャフトを差し込みます。
+Insert the shaft from the flat side of the wheel.
 ![](img/IMG_0969.jpg)  
-エンコーダーにホイールを取り付けます。六角形の穴と六角形の軸が合うようにします。
+Attach the wheel to the encoder. Ensure that the hexagonal holes align with the hexagonal shaft.
 ![](img/IMG_0973.jpg)  
-スペーサーを取り付けてタクトスイッチに乗せます。
+Fit the spacer and place it on the tactile button.
 ![](img/IMG_0980.jpg)  
-ベースをネジとナットで取り付けます。
+Attach the base with screws and nuts.
 ![](img/IMG_0983.jpg)  
-カバーを取り付けます。
+Install the cover.
 ![](img/IMG_0987.jpg)  
-### 4.7 ロータリーエンコーダーのはんだ付け
-STにはんだ付けします。
+
+### 4.7 Soldering rotary encoders
+
+Solder to ST.
 ![](img/IMG_0992.jpg)  
-### 4.8 トップカバーの取り付け
-裏面からネジ（短）で取り付けます。
+
+### 4.8 Installing the top cover
+
+Attach from the rear side with short screws.
 ![](img/IMG_0998.jpg)  
-マウスボタンがクリック可能なことを確認します。
+Ensure that the mouse buttons are clickable.
 ![](img/IMG_1002.jpg)  
-### 4.9 ピンヘッダのはんだ付け
-改めてメインボード#2の部品の向き、はんだ付けの状態を確認します。
-問題がなさそうだったらメインボード#1に乗せてピンヘッダをはんだ付けします。
+
+### 4.9 Soldering of pin headers
+
+Once again, check the orientation and soldering of the components on mainboard #2.
+If everything looks OK, put it on mainboard #1 and solder the pin headers.
 ![](img/IMG_1019.jpg)  
-隙間をできるだけ減らすようにしながら角のピンヘッダから一つずつ作業をすると綺麗に出来上がります。
-### 4.10 動作確認
+Working one by one, starting with the corner pin headers, while trying to reduce the gaps as much as possible, will produce a clean result.
+
+### 4.10 Checking the operation
+
 ロータリーエンコーダーにランナーIについていたシャフトを取り付けます。
 ![](img/IMG_1097.jpg)  
 PCに接続して動作を確認します。キースイッチを一つ使ってソケットの動作を確認していきます。キースイッチの足が折れないように気をつけてください。
