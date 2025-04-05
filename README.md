@@ -23,7 +23,7 @@
 | 10  | Diodes                 | 24         | 1N4148        |
 | 11  | Capacitors             | 2          | 0.1uF         |
 | 12  | Shift registers        | 2          | 74HC595       |
-| 13  | Back buttons           | 3          | 3x6x4.3       |
+| 13  | back buttons           | 3          | 3x6x4.3       |
 | 14  | Side buttons           | 4          | 3x6x5         |
 | 15  | Slide switch           | 1          | SK12F14       |
 | 16  | Mouse buttons          | 2          | YD-003        |
@@ -198,17 +198,22 @@ Plug and solder the four side buttons SS1 to SS4 and one slide switch to SL.
 ### 3.8 Jumper short circuit
 Bend the legs of the diode you have taken away into a U-shape.
 ![](img/IMG_1080.jpg)  
-スライドスイッチの横のJP/LPを短絡します。
+Short-circuit JP/LP next to the slide switch.
 ![](img/IMG_0686.jpg)  
 
-### 3.9 背面ボタンのはんだ付け
-背面ボタンは裏側から差し込みます。
+### 3.9 Soldering of back buttons
+
+The back button is inserted from the backside.
 ![](img/IMG_0689.jpg)  
-### 3.10  動作の確認
-USBケーブルでPCに接続して側面ボタン、背面ボタンの動作を確認します。8が入力され続ける場合はスライドスイッチを切り替えてください。
+
+### 3.10  Confirmation of operation
+
+Connect to a PC via USB cable and check the operation of the side and rear buttons; if 8 continues to be entered, switch the slide switch.
 ![](img/IMG_0858.jpg)  
-確認したらケーブルを外します。電源が入った状態ではんだ付けを行うと故障の原因になります。
-### 3.11 ピンソケットのはんだ付け
+After checking, disconnect the cable. Soldering with the power on may cause a fault.
+
+### 3.11 Soldering of pin sockets
+
 ピンソケット、ピンヘッダーを3ピンずつ8つ切り出します。
 ![](img/IMG_0864.jpg)  
 ピンソケットにピンヘッダーの短い方を差し込んで、ピンソケット側をメインボード#1に配置します。
