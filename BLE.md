@@ -212,35 +212,35 @@ Plug and solder the four side buttons SS1 to SS4 and one slide switch to SL.
 The back button is inserted from the backside.
 ![](img/IMG_1253.jpg)  
 
-### 3.7 動作の確認
+### 3.7 Confirmation of operation
 
-USBケーブルでPCに接続して側面ボタンと、背面ボタンのうち並んだ2つの動作を確認します。
+Connect to a PC with a USB cable and check the operation of the side buttons and two of the rear buttons in a row.
 ![](img/IMG_1256.jpg)  
-残りの背面ボタンを2回すばやく押してXIAO-SENSEドライブが出てくることを確認します。ファームウェアの更新の際に使います。
+Press the remaining rear button twice quickly to make sure the XIAO-SENSE drive comes out. This is used for firmware updates.
 ![](img/IMG_1259.jpg)  
-確認をしたらケーブルを外します。スライドスイッチはバッテリーのオンオフに使われます。
+After checking, disconnect the cable. The slide switch is used to switch the battery on and off.
 
-### 3.8  （オプション）マウス化用部品のはんだ付け
+### 3.8 (Optional) Soldering of components for mouseisation
 
-白枠内にレギュレーターをVR、コンデンサーをC3からC9、Cin、Cout、抵抗をRにはんだ付けします。
+Solder the regulator to VR, capacitors C3 to C9, Cin, Cout and resistor R in the white box.
 ![](img/IMG_1263.jpg)  
 C9の3.3uF 16Vのコンデンサーには極性があるので確認してからはんだ付けします。
 ![](img/IMG_1268.jpg)  
-センサーセットのレギュレーターは平面が下になります。
+The 3.3uF 16V capacitor on C9 has polarity, so check it before soldering.
 ![](img/IMG_1272.jpg)  
-リードタイプの部品ははんだ付けの後に寝かせます。
+Lead-type components are laid down after soldering.
 ![](img/IMG_1273.jpg)  
-センサーをはんだ付けします。シルク印刷と小さいマークを合わせます。
+Solder the sensor. Align the silk print with the small mark.
 ![](img/IMG_1281.jpg)  
-裏面のシールを剥がしてレンズをのせ、表面の足を溶かして軽く固定します。
+Remove the sticker from the back, place the lens on it and melt the surface foot to lightly fix it in place.
 ![](img/IMG_1286.jpg)  
 ![](img/IMG_1291.jpg)  
-ランナーIの部品を合わせてPCに接続して、センサーに反応があることを確認します。
+Match the runner I components and connect them to the PC to check that the sensor responds.
 ![](img/IMG_1292.jpg)  
-動かない場合はコンデンサーが間違っていたり足がブリッジしていないか確認してみてください。
-作業中はレンズを傷つけないように気をつけます。
+If it does not work, check that the condenser is not wrong or that the legs are not bridged.
+Be careful not to damage the lens while working.
 
-### 3.9 ピンソケットのはんだ付け
+### 3.9 Soldering of pin sockets
 
 ピンソケット、ピンヘッダーを3ピンずつ8つ切り出します。
 ![](img/IMG_0864.jpg)  
