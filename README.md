@@ -403,7 +403,7 @@ If the top and bottom fastenings become loose or poor contact, consider replacin
 Optional or colour-changed parts can be printed.
 ![](img/IMG_1892.jpg)  
 
-- [STL.md](STL.md)
+- [stl](/stl)
   
 ### 6.3 Firmware code.
 
