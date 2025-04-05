@@ -185,7 +185,7 @@ Also, the melting point of 3D printed products is around 200°C. Be careful not 
 5 V (VUSB), solder the device in the GP0 position, making sure it is on the reverse side.
 ![](img/IMG_1228.jpg)  
 Wire the RESET (1) and BAT+ (2) pads on the back.  
-Be careful not to pull on the wiring material or consider not soldering the RESET pad, as if it is stripped, the reset button will also be unusable (resetting with the rear button will not be possible).
+Be careful not to pull on the wiring material or consider not soldering the RESET pad, as if it is stripped, the reset button will also be unusable (resetting with the back button will not be possible).
 ![](img/IMG_1230.jpg)  
 (Optional) If you want to convert it to a mouse, you can also wire two NFC's.
 ![](img/IMG_1233.jpg)  
@@ -214,9 +214,9 @@ The back button is inserted from the backside.
 
 ### 3.7 Confirmation of operation
 
-Connect to a PC with a USB cable and check the operation of the side buttons and two of the rear buttons in a row.
+Connect to a PC with a USB cable and check the operation of the side buttons and two of the back buttons in a row.
 ![](img/IMG_1256.jpg)  
-Press the remaining rear button twice quickly to make sure the XIAO-SENSE drive comes out. This is used for firmware updates.
+Press the remaining back button twice quickly to make sure the XIAO-SENSE drive comes out. This is used for firmware updates.
 ![](img/IMG_1259.jpg)  
 After checking, disconnect the cable. The slide switch is used to switch the battery on and off.
 
@@ -345,7 +345,7 @@ Solder to ST.
 
 ### 4.7 Installing the top cover
 
-Attach from the rear side with short screws.
+Attach from the back side with short screws.
 ![](img/IMG_1397.jpg)  
 Ensure that the mouse buttons are clickable.
 ![](img/IMG_1400.jpg)  
