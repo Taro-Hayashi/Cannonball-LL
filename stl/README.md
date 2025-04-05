@@ -1,5 +1,16 @@
 # Data for 3D Printing
 
+## Optional parts
+![](../img/optional.jpg)
+
+| File name      |
+| -------------- |
+| Switch plate   |
+| 3-Keys Blocker |
+| Mech knob      |
+| integrated Bottom            |
+| integrated Sensor cover      |
+
 ## Included parts
 ![](../img/included.jpg)
 | File name         |
@@ -18,13 +29,4 @@
 ## 1U Wheel Encoder THQWGD001
 - https://github.com/Taro-Hayashi/THQWGD001
 
-## Optional parts
-![](../img/optional.jpg)
 
-| File name      |
-| -------------- |
-| Switch plate   |
-| 3-Keys Blocker |
-| Mech knob      |
-| integrated Bottom            |
-| integrated Sensor cover      |
