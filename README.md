@@ -87,7 +87,7 @@ The items described here require some prerequisite knowledge for use. See the gu
 | flux|                    |
 | IPA                               | 
 | Heat-resistant mat                             | 
-| Tester                              |
+| Multimater                              |
 | Desoldering wire                         | 
 | Design Knife                           |
 | Masking tape                          | 
@@ -153,7 +153,7 @@ It is easier to fix them with masking tape after insertion and soldering.
 ![](img/IMG_0647.jpg)  
 Also, the melting point of 3D printed products is around 200°C. Be careful not to melt the soldering iron if it comes into direct contact with it.
 
-### 3.2 Soldering the RP2040-Zero
+### 3.2 Soldering RP2040-Zero
 
 Check the reverse side at 5V, GP0 and solder the 8 positions at the front once aligned using the pin headers supplied with the RP2040-Zero. Place a runner with the parts cut off underneath for stability.
 ![](img/IMG_0616.jpg)  
@@ -229,7 +229,7 @@ Printed items do not need to be removed.
 ![](img/IMG_0909.jpg)  
 If mainboard #2 has been soldered in place, use leverage to remove it. Be aware that if the pin header is bent, it may cause poor contact, so pull it out vertically.
 ![](img/IMG_1114.jpg)  
-If a tester is available, check that there is continuity between the GPIO and pin headers of the RP2040-Zero and shift register.
+If a multimater is available, check that there is continuity between the GPIO and pin headers of the RP2040-Zero and shift register.
 ![](test2.jpg)  
 
 ## 3.12 Assembling the lower half
