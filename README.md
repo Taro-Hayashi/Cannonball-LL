@@ -106,7 +106,7 @@ It could be divided into three parts: main board #1, main board #2 and switch pl
 ### 2.2 Remove parts from the runner
 
 Runner I has 3 components and runner II has 17 components.
-![](img/IMG_0543 1.jpg)  
+![](img/IMG_0543.jpg)  
 
 ### 2.3 Remove the shift register and rotary encoder from the case
 
