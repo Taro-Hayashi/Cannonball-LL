@@ -1,4 +1,6 @@
-### Included parts
+# Data for 3D Printing(GitHub)
+
+## Included parts
 ![](../img/included.jpg)
 | File name         |
 | ----------------- |
@@ -13,10 +15,10 @@
 | Sensor cover #1,2 |
 | Blocker           |
 
-### 1U Wheel Encoder THQWGD001
+## 1U Wheel Encoder THQWGD001
 - https://github.com/Taro-Hayashi/THQWGD001
 
-### Optional parts
+## Optional parts
 ![](../img/optional.jpg)
 
 | File name      |
