@@ -37,7 +37,7 @@
 | 24  | Micro Controller Board | 1          | RP2040-Zero   |
 
 
-### 1.2 Additional Required
+### 1.2 Additional required
 
 ![](img/IMG_0816.jpg)  
 
