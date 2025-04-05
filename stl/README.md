@@ -1,6 +1,5 @@
-
 ### Included parts
-
+![](../included.jpg)
 | File name         |
 | ----------------- |
 | Bottom            |
@@ -20,6 +19,7 @@
 - https://github.com/Taro-Hayashi/THQWGD001
 
 ### Optional parts
+![](../optional.jpg)
 
 | File name      |
 | -------------- |
