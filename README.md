@@ -400,7 +400,7 @@ If the top and bottom fastenings become loose or poor contact, consider replacin
 
 ### 6.2 Data for printing
 
-- [stl](/stl)
+- [Data for 3D Printing](/stl)
 
 Optional or colour-changed parts can be printed.
 ![](img/IMG_1892.jpg)  
