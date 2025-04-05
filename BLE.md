@@ -43,7 +43,7 @@
 | 23  | 1U Wheel Encoder       | 2          | THQWGD001C    |
 | 24  | Micro Controller Board | 1          | RP2040-Zero   |
 
-### 1.2 Additional required
+### 1.3 Additional required
 ![](img/IMG_1192.jpg)
 
 | Types              | Quantities  |
@@ -56,7 +56,7 @@
 | Protective tape, rubber sheeting, etc.
  | 1   |
 
-### 1.3 Further additional required to a wireless mouse
+### 1.4 Further additional required to a wireless mouse
 Capacitors and resistors are available in leaded or 1206 and 0805 packages.
 The regulator can be TO92 or SOT23-5. The image shows the sensor set on BOOTH.
 
@@ -75,46 +75,48 @@ The regulator can be TO92 or SOT23-5. The image shows the sensor set on BOOTH.
 | R        | Resistor      | 1   | 10kΩ             |        
 |          | Mouse sole  | 5   | 0.65mm and 0.8mm thickness confirmed|        
 
-### 1.3 対応しているもの
+### 1.5 Optional
 
-| 部品名                 |                                                                  |
-| ------------------- | ---------------------------------------------------------------- |
-| PHコネクター ポスト サイド型 2P | PHコネクター付きのバッテリーに使用します。プラスマイナスを必ず調べてください。小さめのサイズでないと干渉する可能性があります。 |
-| Choc V1/V2互換のキースイッチ | 高さを抑えることができます。MX互換のキースイッチとの共存はできません。ソケット、トッププレートは使いません。          |
-| 絶縁できるテープ、接着剤等       | Chocスイッチを使う場合はピンヘッダの頭を絶縁すると予期しない動作を防ぐことができます。                    |
+| Types                    | Quantitie  |                                                                                             |
+| ---------------------- | --- | --------------------------------------------------------------------------------------------- |
+| PH connector Post Side type 2P | For use with batteries with PH connector. Be sure to check the plus and minus. It must be a smaller size or there may be interference.
+ |
+| Choc V1/V2 keyswitches | 10  | Height can be reduced. Sockets and top plates are not used. It cannot coexist with MX switches.                                   |
+| Tape or glue           | 1   | When using Choc switches, isolate the head of the pin header to prevent unexpected operation. |
+| [3-keys blocker](stl/)           | 1   | Blocks the palm of the hand when held. |
+| [Switch plate](stl/)           | 1   | 3DP switch plate with invisible pin header heads. |
 
-
-### 1.4 必要な道具
+### 1.6 Tools required
 ![](img/IMG_1469.jpg)
 
-| 道具名     |                   |
-| ------- | ----------------- |
-| はんだごて   |                   |
-| こて台     |                   |
-| はんだ     | 鉛入りが扱いやすいです       |
-| ニッパー    |                   |
-| カッター    |                   |
-| やすり     | 棒、もしくは240番程度の紙やすり |
-| ピンセット   |                   |
-| 精密ドライバー | 00番か0番のプラスドライバー   |
+| Types                                                | 
+| --------------------------------------------------- |
+| Soldering iron                                               |
+| Trowel                     |
+| Soldering wire |
+| Nipper                     | 
+| Cutter                    |
+| File                      | 
+| Twezers                    |   
+| screwdriver                 | 
 
 
-### 1.5 あると便利な道具
 
-| 道具名      | 備考                                                                   |
-| -------- | -------------------------------------------------------------------- |
-| C型のこて先   | 細かいはんだ付けに向いた先端です。お持ちのはんだごてに対応したものを購入してください。                          |
-| フラックス    | はんだ付けの難易度が著しく下がります。粘り気が強く電気を通さないので端子やスイッチに入らないように使います。可燃性。           |
-| IPA      | フラックスを拭き取るのに使います。掃除にも使えます。油分を飛ばすためスイッチ等潤滑油が使用されてるものに付かないように使います。可燃性。 |
-| 耐熱マット    | 同上                                                                   |
-| テスター     | はんだ付けや部品の故障の確認ができます。                                                 |
-| 小皿       | 部品をなくしにくくなります。                                                       |
-| 当て木      | 紙やすりを使う場合に平面を出しやすくなります。                                              |
-| はんだ吸い取り線 | 失敗した際に部品を取り外しやすくなります。                                                |
-| デザインナイフ  | プリント品の細かい修正等に使えます。                                                   |
-| マスキングテープ | パーツの固定に使います。                                                         |
+### 1.7 Tools optional
 
-## 2 組み立ての準備
+| Types                               | 
+| --------------------------------- | 
+| C-type trowel tip                             | 
+| flux|                    |
+| IPA                               | 
+| Heat-resistant mat                             | 
+| Tester                              |
+| Desoldering wire                         | 
+| Design Knife                           |
+| Masking tape                          | 
+
+
+## 2 Preparation for assembly
 
 ### 2.1 メインボードを切り離す
 カッターで切れ目を入れて曲げると綺麗に割ることができます。
