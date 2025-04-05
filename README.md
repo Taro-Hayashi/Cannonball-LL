@@ -1,6 +1,6 @@
 # Cannonball LL Build Manual ([日本語](https://note.com/taro_hayashi/n/n3da1e116aa8d))
 
-![](img/cannonballll_w.jpg)  
+![](img/IMG_1571.jpg)  
 
 ## 1 Introduction
 
