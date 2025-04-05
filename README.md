@@ -124,9 +124,9 @@ Download the uf2 file here.
 
 Connect to the PC via USB cable while pressing the BOOT button.
 ![](img/IMG_0581.jpg)  
-Drag and drop the uf2 file as it is recognised as an RPI-RP2 drive.
-![](img/drive.png)
-It will now be recognised as a keyboard.
+Drag and drop the uf2 file as it is recognised as an RPI-RP2 drive.  
+![](img/drive.png). 
+It will now be recognised as a keyboard.  
 
 ### 2.5 Press fitting of insert nuts
 
