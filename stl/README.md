@@ -9,7 +9,7 @@
 | Knob              |
 | Bottom button     |
 | Reset button      |
-| Bar               |
+| leverage          |
 | Sensor cover #1,2 |
 | Blocker           |
 
