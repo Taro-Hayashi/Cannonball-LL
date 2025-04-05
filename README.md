@@ -151,39 +151,50 @@ It is easier to fix them with masking tape after insertion and soldering.
 ![](img/IMG_0647.jpg)  
 Also, the melting point of 3D printed products is around 200°C. Be careful not to melt the soldering iron if it comes into direct contact with it.
 
-### 3.2 RP2040-Zeroのはんだ付け
-5V, GP0の位置で裏表を確認して、RP2040-Zero付属のピンヘッダを使って位置を合わせたら手前の8箇所をはんだ付けします。部品を切ったランナーを下に敷くと安定します。
+### 3.2 Soldering the RP2040-Zero
+
+Check the reverse side at 5V, GP0 and solder the 8 positions at the front once aligned using the pin headers supplied with the RP2040-Zero. Place a runner with the parts cut off underneath for stability.
 ![](img/IMG_0616.jpg)  
-反対側もはんだ付けしたらピンヘッダーをはずして残った5箇所をはんだ付けします。
+Once the other side is also soldered, remove the pin headers and solder the remaining five positions.
 ![](img/IMG_0625.jpg)  
-### 3.3（オプション）SK6812MINI-Eのはんだ付け
-L1からL4に、マークと欠けている方向を合わせてはんだ付けします。
+
+### 3.3 (Optional) Soldering the SK6812MINI-E
+
+Solder L1 to L4, aligning the mark with the missing direction.
 ![](img/IMG_0634.jpg)  
-発光面がこちらを向いています。
+The luminous surface is facing you.
 ![](img/IMG_0637.jpg)  
 
-### 3.4 ダイオードのはんだ付け
-ダイオードには方向があります。マークと黒線の方向を合わせます。
+### 3.4 Soldering of diodes
+
+The diode has a direction. Align the mark with the direction of the black line.
 ![](img/IMG_0640.jpg)  
-D1にダイオードを差し込み、裏返してはんだ付けして足をニッパーで切ります。
+Insert the diode into D1, turn it over, solder it and cut the legs with nippers.
 ![](img/IMG_0644.jpg)  
-D7まで7箇所はんだ付けします。
+Solder 7 places up to D7.
 ![](img/IMG_0650.jpg)  
-足を一本残しておきます。
-![](img/IMG_1077.jpg)  ### 3.5 シフトレジスターのはんだ付け
-SR1、SR2に足を折ってしまわないように差し込み、裏から全ての足が出ていることを確認したらはんだ付けします。
-丸マークとパッケージの欠けの方向を合わせます。
+Leave one leg.
+![](img/IMG_1077.jpg)  
+
+### 3.5 Soldering of shift registers
+
+Insert the legs into SR1 and SR2 without breaking them, and solder them after checking that all the legs are sticking out from the back.
+Align the circle mark with the direction of the chip on the package.
 ![](img/IMG_0670.jpg)  
 
-### 3.6 コンデンサーのはんだ付け
-C1とC2にはんだ付けします。
-104と書いてあることを確認してください。違っていた場合は梱包ミスですのでこのステップを飛ばしてください。このコンデンサーは無くても動作します。
+### 3.6  Soldering of capacitors
+
+Solder to C1 and C2.
+Make sure it says 104. If it is not, this is a packaging error and this step should be skipped. The capacitor will work without it.
 ![](img/IMG_0678.jpg)  
-### 3.7 側面ボタンとスライドスイッチのはんだ付け
-側面ボタン4つをSS1からSS4に、スライドスイッチ1つをSLに差し込んではんだ付けします。
+
+### 3.7 Soldering side buttons and slide switches
+
+Plug and solder the four side buttons SS1 to SS4 and one slide switch to SL.
 ![](img/IMG_0682.jpg)  
-### 3.8 ジャンパーの短絡
-取っておいたダイオードの足をコの字型に曲げます。
+
+### 3.8 Jumper short circuit
+Bend the legs of the diode you have taken away into a U-shape.
 ![](img/IMG_1080.jpg)  
 スライドスイッチの横のJP/LPを短絡します。
 ![](img/IMG_0686.jpg)  
