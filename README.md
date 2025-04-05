@@ -92,7 +92,7 @@ The items described here require some prerequisite knowledge for use. See the gu
 
 ## 2  Preparation for assembly
 
-### 2.1 Disconnect the mainboard.
+### 2.1 Disconnect the mainboard
 
 It can be split cleanly by cutting a slit with a cutter and bending it.
 ![](img/IMG_0829.jpg)  
@@ -103,15 +103,18 @@ This area can be left jagged without affecting the finished form.
 It could be divided into three parts: main board #1, main board #2 and switch plate.
 ![](img/IMG_0846.jpg)  
 
-### 2.2 Remove parts from the runner.
+### 2.2 Remove parts from the runner
 
-ランナーIには部品が3つ、ランナーIIには部品が17個付いています。
+Runner I has 3 components and runner II has 17 components.
 ![](img/IMG_0543 1.jpg)  
-### 2.3 シフトレジスターとロータリーエンコーダーをケースから外す
-シフトレジスターはランナーIIの部品（テコ）で裏から押します。ピンで指を刺さないよう気をつけます。
-ロータリーエンコーダーは左右の爪をニッパーで切ります。
-![](img/IMG_0555.jpg)  
-### 2.4 テストファームウェアを書き込む
+
+### 2.3 Remove the shift register and rotary encoder from the case
+
+The shift register is pressed from the back with the runner II component (lever). Be careful not to prick your finger with the pin.
+For the rotary encoder, cut the left and right claws with nippers.b
+![](img/IMG_0555.jpg)]
+
+### 2.4 Write test firmware
 こちらのuf2ファイルをダウンロードしてください。
 - [tarohayashi_cannonballll_test.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/latest/download/tarohayashi_cannonballll_test.uf2)
 
