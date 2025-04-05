@@ -1,4 +1,4 @@
-# Data for 3D Printing(GitHub)
+# Data for 3D Printing
 
 ## Included parts
 ![](../img/included.jpg)
