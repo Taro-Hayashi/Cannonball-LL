@@ -1,414 +1,351 @@
 # Cannonball LL Build Manual (wireless version) ([日本語](https://note.com/taro_hayashi/n/n3da1e116aa8d))
 
-![](img/cannonballll_w.jpg)  
-
-## 1 Introduction
-
-### 1.1 Contents
-
-![](img/IMG_0794.jpg)  
-![](img/IMG_0812.jpg)  
-
-|     | Types                  | Quantities |               |
-| --- | ---------------------- | ---------- | ------------- |
-| 1   | PCB                    | 1          |               |
-| 2   | Runner I               | 1          |               |
-| 3   | Runner II              | 1          |               |
-| 4   | Top cover              | 1          |               |
-| 5   | Knob cover             | 1          |               |
-| 6   | Short screws           | 2          | M2 6mm        |
-| 7   | Long screws            | 4          | M2 10mm       |
-| 8   | Nuts                   | 4          | M2            |
-| 9   | Insert nuts            | 2          | M2 5mm or 6mm |
-| 10  | Diodes                 | 24         | 1N4148        |
-| 11  | Capacitors             | 2          | 0.1uF         |
-| 12  | Shift registers        | 2          | 74HC595       |
-| 13  | back buttons           | 3          | 3x6x4.3       |
-| 14  | Side buttons           | 4          | 3x6x5         |
-| 15  | Slide switch           | 1          | SK12F14       |
-| 16  | Mouse buttons          | 2          | YD-003        |
-| 17  | Lever buttons          | 2          | THMU27        |
-| 18  | Rotary Encoder         | 1          | RKJXT1F42001  |
-| 19  | Rubber feet            | 5          |               |
-| 20  | Pin header             | 1          | 40pins        |
-| 21  | Pin Sockets            | 2          | 14pins        |
-| 22  | Hotswap Sockets        | 10         | CPG151101S11  |
-| 23  | 1U Wheel Encoder       | 2          | THQWGD001C    |
-| 24  | Micro Controller Board | 1          | RP2040-Zero   |
-
-
-### 1.2 Additional Required
-
-![](img/IMG_0816.jpg)  
-
-
-| Types              | Quantities  |
-| ---------------- | --- |
-| Keyswitches      | 10  |
-| Keycaps          | 10  |
-| Type-C USB cable | 1   |
-
-### 1.3 Optional
-
-The items described here require some prerequisite knowledge for use. See the guide below for more information on going wireless.
-- [Cannonball LL(wireless version)](BLE.md)
-
-
-| Types                    | Quantitie  |                                                                                             |
-| ---------------------- | --- | --------------------------------------------------------------------------------------------- |
-| SK-6812MINI-E          | 14  |                                                                                               |
-| Choc V1/V2 keyswitches | 10  | Height can be reduced. Sockets and top plates are not used. It cannot coexist with MX switches.                                   |
-| Tape or glue           | 1   | When using Choc switches, isolate the head of the pin header to prevent unexpected operation. |
-| [3-keys blocker](stl/)           | 1   | Blocks the palm of the hand when held. |
-| [Switch plate](stl/)           | 1   | 3DP switch plate with invisible pin header heads. |
-
-### 1.4 Tools required
-
-![](img/IMG_1469.jpg)  
-
-| Types                                                | 
-| --------------------------------------------------- |
-| Soldering iron                                               |
-| Trowel                     |
-| Soldering wire |
-| Nipper                     | 
-| Cutter                    |
-| File                      | 
-| Twezers                    |   
-| screwdriver                 | 
-
-
-
-### 1.5 Tools optional
-
-| Types                               | 
-| --------------------------------- | 
-| C-type trowel tip                             | 
-| flux|                    |
-| IPA                               | 
-| Heat-resistant mat                             | 
-| Tester                              |
-| Desoldering wire                         | 
-| Design Knife                           |
-| Masking tape                          | 
-
-## 2  Preparation for assembly
-
-### 2.1 Disconnect the mainboard
-
-It can be split cleanly by cutting a slit with a cutter and bending it.
-![](img/IMG_0829.jpg)  
-The tabs are cut away with nippers and the cut surfaces are sanded. Be careful not to remove the original board edges, as over-shaving will damage the circuitry.
-![](img/IMG_0831.jpg)  
-This area can be left jagged without affecting the finished form.
-![](img/IMG_0840.jpg)  
-It could be divided into three parts: main board #1, main board #2 and switch plate.
-![](img/IMG_0846.jpg)  
-
-### 2.2 Remove parts from the runner
-
-Runner I has 3 components and runner II has 17 components.
-![](img/IMG_0543.jpg)  
-
-### 2.3 Remove the shift register and rotary encoder from the case
-
-The shift register is pressed from the back with the runner II component (leverage). Be careful not to prick your finger with the pin.
-For the rotary encoder, cut the left and right claws with nippers.
-![](img/IMG_0555.jpg)
-
-### 2.4 Write test firmware
-
-Download the uf2 file here.
-
-- [tarohayashi_cannonballll_test.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/latest/download/tarohayashi_cannonballll_test.uf2)
-
-Connect to the PC via USB cable while pressing the BOOT button.
-![](img/IMG_0581.jpg)  
-Drag and drop the uf2 file as it is recognised as an RPI-RP2 drive.
-![](img/drive.png)
-It will now be recognised as a keyboard.
-
-### 2.5 Press fitting of insert nuts
-
-Press-fit the insert nut into the printed item in the image. Main board #1 is also used.
-![](img/IMG_0589.jpg)  
-Apply main board #1 to the backside and press the soldering iron onto the insert nut.
-![](img/IMG_0598.jpg)  
-Ensure as few steps as possible with main board #1.
-![](img/IMG_0604.jpg)  
-Cut out the reinforcement with nippers.
-![](img/IMG_0610.jpg)  
-
-## 3 Soldering of main board #️1
-
-### 3.1 Be careful when soldering
-
-Imagine molten solder spreading only on the pad due to surface tension. It is very easy to apply flux.
-![](img/IMG_0654.jpg)  
-Heat the pads and component legs well to allow electricity to pass through both the board and the components.
-Be careful that the solder does not connect with the small holes (VIA).
-![](img/IMG_0668.jpg)  
-Take care that the legs coming out of the through-hole component are around 2 mm; if they exceed 2.5 mm, they may interfere with the 3D printed item on the bottom.
-It is easier to fix them with masking tape after insertion and soldering.
-![](img/IMG_0647.jpg)  
-Also, the melting point of 3D printed products is around 200°C. Be careful not to melt the soldering iron if it comes into direct contact with it.
-
-### 3.2 Soldering the RP2040-Zero
-
-Check the reverse side at 5V, GP0 and solder the 8 positions at the front once aligned using the pin headers supplied with the RP2040-Zero. Place a runner with the parts cut off underneath for stability.
-![](img/IMG_0616.jpg)  
-Once the other side is also soldered, remove the pin headers and solder the remaining five positions.
-![](img/IMG_0625.jpg)  
-
-### 3.3 (Optional) Soldering the SK6812MINI-E
-
-Solder L1 to L4, aligning the mark with the missing direction.
-![](img/IMG_0634.jpg)  
-The luminous surface is facing you.
-![](img/IMG_0637.jpg)  
-
-### 3.4 Soldering of diodes
-
-The diode has a direction. Align the mark with the direction of the black line.
-![](img/IMG_0640.jpg)  
-Insert the diode into D1, turn it over, solder it and cut the legs with nippers.
-![](img/IMG_0644.jpg)  
-Solder 7 places up to D7.
-![](img/IMG_0650.jpg)  
-Leave one leg.
-![](img/IMG_1077.jpg)  
-
-### 3.5 Soldering of shift registers
-
-Insert the legs into SR1 and SR2 without breaking them, and solder them after checking that all the legs are sticking out from the back.
-Align the circle mark with the direction of the chip on the package.
-![](img/IMG_0670.jpg)  
-
-### 3.6  Soldering of capacitors
-
-Solder to C1 and C2.
-Make sure it says 104. If it is not, this is a packaging error and this step should be skipped. The capacitor will work without it.
-![](img/IMG_0678.jpg)  
-
-### 3.7 Soldering side buttons and slide switches
-
-Plug and solder the four side buttons SS1 to SS4 and one slide switch to SL.
-![](img/IMG_0682.jpg)  
-
-### 3.8 Jumper short circuit
-Bend the legs of the diode you have taken away into a U-shape.
-![](img/IMG_1080.jpg)  
-Short-circuit JP/LP next to the slide switch.
-![](img/IMG_0686.jpg)  
-
-### 3.9 Soldering of back buttons
-
-The back button is inserted from the backside.
-![](img/IMG_0689.jpg)  
-
-### 3.10  Confirmation of operation
-
-Connect to a PC via USB cable and check the operation of the side and rear buttons; if 8 continues to be entered, switch the slide switch.
-![](img/IMG_0858.jpg)  
-After checking, disconnect the cable. Soldering with the power on may cause a fault.
-
-### 3.11 Soldering of pin sockets
-
-Cut out eight pin sockets and pin headers with three pins each.
-![](img/IMG_0864.jpg)  
-Insert the short end of the pin header into the pin socket and place the pin socket side on main board #1.
-![](img/IMG_0872.jpg)  
-Insert the six Runner II components. If they are difficult to insert, shave off the cut marks on the pin headers or pin sockets.
-![](img/IMG_0882.jpg)  
-Cover the main board #2 with the pin headers (do not solder yet). If it is difficult to get all the pin headers through, force a few at a time to avoid rubbing the board.
-![](img/IMG_0887.jpg)  
-Once flipped over, solder the pin socket to main board #1.
-![](img/IMG_0904.jpg)  
-After soldering is complete, return to the front and remove main board #2.
-Printed items do not need to be removed.
-![](img/IMG_0909.jpg)  
-If mainboard #2 has been soldered in place, use leverage to remove it. Be aware that if the pin header is bent, it may cause poor contact, so pull it out vertically.
-![](img/IMG_1114.jpg)  
-If a tester is available, check that there is continuity between the GPIO and pin headers of the RP2040-Zero and shift register.
-![](test2.jpg)  
-
-## 3.12 Assembling the lower half
-Combine the parts of runner I and place five parts of runner II. Pay attention to the orientation of the central component.
-![](img/IMG_0901.jpg)  
-Place mainboard #1 on top and fit a nut on one of the corner components of runner I.
-![](img/IMG_0917.jpg)  
-A total of 9 runner I components and 4 nuts were fitted.
-![](img/IMG_0921.jpg)  
-
-## 4 Soldering of mainboard #2
-
-### 4.1 (Optional) Soldering the SK6812MINI-E
-
-Solder from L5 to L14. On main board #2, the light-emitting surface faces the other way.
-![](img/IMG_0926.jpg)  
-
-### 4.2 Soldering of diodes
-
-Solder D8 to D24; from D19 onwards the mounting surface is different.
-![](img/IMG_0930.jpg)  
-![](img/IMG_0933.jpg)  
-
-### 4.3 Soldering of MX sockets
-
-Solder from S1 to S10. The amount of solder required for the socket is greater.
-![](img/IMG_0946.jpg)  
-
-### 4.4  Soldering of lever buttons
-
-Attach to L1 and L2. Solder the contacts on the sides as well.
-![](img/IMG_0954.jpg)  
-
-### 4.5 Soldering of mouse buttons
-
-Attach to M1 and M2. Align the click bar with the silk print.
-![](img/IMG_0959.jpg)  
-
-### 4.6  Assembling the 1U wheel encoder
-
-The following components of the sachet are used
-![](img/IMG_0854.jpg)  
-
-|     | Types        | Quantities|               |
+![](img/IMG/IMG_0243.jpg)
+[GitHub(English)](https://github.com/Taro-Hayashi/Cannonball-LL)
+## 1 無線対応で組み立てる前に
+### 1.1 ご注意
+- リチウムポリマーバッテリーは爆発し怪我や火災の原因となりますので使用する場合は取り扱いに十分に注意してください。
+- ファームウェアは自分で作成します。雛形となるZMK Firmwareは公開しています。
+- はんだ付けにある程度慣れていることを前提としています。
+
+### 1.2 内容品
+![](img/IMG_1136.jpg)
+![](img/IMG_1130.jpg)
+
+|     | 部品名          | 個数  | 詳細            |
+| --- | ------------ | --- | ------------- |
+| 1   | PCB          | 1   |               |
+| 2   | ランナーI        | 1   |               |
+| 3   | ランナーII       | 1   |               |
+| 4   | トップカバー       | 1   |               |
+| 5   | ノブカバー        | 1   |               |
+| 6   | ネジ（短）        | 2   | M2 6mm        |
+| 7   | ネジ（長）        | 4   | M2 10mm       |
+| 8   | ナット          | 4   | M2            |
+| 9   | インサートナット     | 2   | M2 5mm or 6mm |
+| 10  | ダイオード        | 24  | 1N4148        |
+| 11  | コンデンサー       | 2   | 0.1uF         |
+| 12  | シフトレジスター     | 2   | 74HC595       |
+| 13  | 背面ボタン        | 3   | 3x6x4.3       |
+| 14  | 側面ボタン        | 4   | 3x6x5         |
+| 15  | スライドスイッチ     | 1   | SK12F14       |
+| 16  | マウスボタン       | 2   | YD-003        |
+| 17  | レバーボタン       | 2   | THMU27        |
+| 18  | ロータリーエンコーダー  | 1   | RKJXT1F42001  |
+| 19  | ゴム足          | 5   |               |
+| 20  | ピンヘッダー       | 1   | 40ピン          |
+| 21  | ピンソケット       | 2   | 14ピン          |
+| 22  | MXソケット       | 10  | CPG151101S11  |
+| 23  | 1Uホイールエンコーダー | 2   | THQWGD001C    |
+| 24  | マイコンボード      | 1   | RP2040-Zero   |
+
+### 1.2 キット以外に必要なもの
+![](img/IMG/IMG_1192.jpg)
+
+| 部品名               | 個数  |         | 入手先の例        |
+| ----------------- | --- | ------- | ------------ |
+| Cherry MX互換キースイッチ | 10  |         | 遊舎工房         |
+| 対応したキーキャップ        | 10  |         | 遊舎工房         |
+| Type-C USBケーブル    | 1   |         | 遊舎工房         |
+| XIAO BLE          | 1   |         | 秋月電子通商       |
+| 配線材               | 1   | AWG26程度 | 秋月電子通商       |
+| LiPo バッテリー        | 1   | ~603035 | Amazon.co.jp |
+| 保護用のテープ、ゴムシート等    | 1   |         | 秋月電子通商       |
+
+### 1.3 無線マウス化に追加で必要なもの
+コンデンサー、抵抗はリードタイプか1206、0805のパッケージに対応しています。
+レギュレーターはTO92かSOT23-5のものが使えます。画像はセンサーセットのものです。
+![](img/IMG/IMG_1149.jpg)
+
+| シルク印刷    | 部品名     | 個数  |                  | セットの部品 | 入手先の例                                                             |
+| -------- | ------- | --- | ---------------- | ------ | ----------------------------------------------------------------- |
+|          | センサー    | 1   | PMW3610          |        | [Ali Express](https://ja.aliexpress.com/w/wholesale-pmw3610.html) |
+| VR       | レギュレーター | 1   | 3.3V入力1.8~1.9V出力 |        | 秋月電子通商                                                            |
+| C3、C4、C5 | コンデンサー  | 3   | 0.1uF X7R        | 茶104   | 秋月電子通商                                                            |
+| C6、C7    |         | 2   | 0.01uF X7R       | 茶103   | 秋月電子通商                                                            |
+| C8       |         | 1   | 10uF X7R         | 青106k  | 秋月電子通商                                                            |
+| C9       |         | 1   | 3.3uF 16V        | 茶3u3   | 秋月電子通商                                                            |
+| C in     |         | 1   | レギュレーターの入力用      | 茶106k  | 秋月電子通商                                                            |
+| C out    |         | 1   | レギュレーターの出力用      | 茶106k  | 秋月電子通商                                                            |
+| R        | 抵抗      | 1   | 10kΩ             |        | 秋月電子通商                                                            |
+|          | マウスソール  | 5   | 0.65mm〜0.8mm     |        | Amazon.co.jp                                                      |
+
+### 1.3 対応しているもの
+
+| 部品名                 |                                                                  |
+| ------------------- | ---------------------------------------------------------------- |
+| PHコネクター ポスト サイド型 2P | PHコネクター付きのバッテリーに使用します。プラスマイナスを必ず調べてください。小さめのサイズでないと干渉する可能性があります。 |
+| Choc V1/V2互換のキースイッチ | 高さを抑えることができます。MX互換のキースイッチとの共存はできません。ソケット、トッププレートは使いません。          |
+| 絶縁できるテープ、接着剤等       | Chocスイッチを使う場合はピンヘッダの頭を絶縁すると予期しない動作を防ぐことができます。                    |
+
+
+### 1.4 必要な道具
+![](img/IMG_1469.jpg)
+
+| 道具名     |                   |
+| ------- | ----------------- |
+| はんだごて   |                   |
+| こて台     |                   |
+| はんだ     | 鉛入りが扱いやすいです       |
+| ニッパー    |                   |
+| カッター    |                   |
+| やすり     | 棒、もしくは240番程度の紙やすり |
+| ピンセット   |                   |
+| 精密ドライバー | 00番か0番のプラスドライバー   |
+
+
+### 1.5 あると便利な道具
+
+| 道具名      | 備考                                                                   |
+| -------- | -------------------------------------------------------------------- |
+| C型のこて先   | 細かいはんだ付けに向いた先端です。お持ちのはんだごてに対応したものを購入してください。                          |
+| フラックス    | はんだ付けの難易度が著しく下がります。粘り気が強く電気を通さないので端子やスイッチに入らないように使います。可燃性。           |
+| IPA      | フラックスを拭き取るのに使います。掃除にも使えます。油分を飛ばすためスイッチ等潤滑油が使用されてるものに付かないように使います。可燃性。 |
+| 耐熱マット    | 同上                                                                   |
+| テスター     | はんだ付けや部品の故障の確認ができます。                                                 |
+| 小皿       | 部品をなくしにくくなります。                                                       |
+| 当て木      | 紙やすりを使う場合に平面を出しやすくなります。                                              |
+| はんだ吸い取り線 | 失敗した際に部品を取り外しやすくなります。                                                |
+| デザインナイフ  | プリント品の細かい修正等に使えます。                                                   |
+| マスキングテープ | パーツの固定に使います。                                                         |
+
+## 2 組み立ての準備
+
+### 2.1 メインボードを切り離す
+カッターで切れ目を入れて曲げると綺麗に割ることができます。
+![](img/IMG/IMG_1160.jpg)
+タブはニッパーで切り離し、切断面をやすりがけします。削りすぎると回路を傷つけるので元々の基板端は削らないように気をつけます。
+![](img/IMG/IMG_1169.jpg)
+ここはギザギザのままでも見えなくなります。
+![](img/IMG/IMG_1173.jpg)
+メインボード#1、メインボード#2、スイッチプレートの3つに分割できました。
+![](img/IMG/IMG_1176.jpg)
+### 2.2ランナーから部品を外す
+ランナーIには部品が3つ、ランナーIIには部品が17個付いています。
+![](img/IMG/IMG_1181.jpg)
+### 2.3 シフトレジスターとロータリーエンコーダーをケースから外す
+シフトレジスターはランナーIIの部品（テコ）で裏から押します。ピンで指を刺さないよう気をつけます。
+ロータリーエンコーダーは左右の爪をニッパーで切ります。
+![](img/IMG/IMG_1188.jpg)
+### 2.4 テストファームウェアを書き込む
+こちらのuf2ファイルをダウンロードしてください。
+- [Cannonball_LL-seeeduino_xiao_ble-zmk.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/download/0.28.2/Cannonball_LL-seeeduino_xiao_ble-zmk.uf2)
+
+XIAO BLEをUSBケーブルでPCに接続したら小さなリセットボタンを2回素早く押します。
+![](img/IMG/IMG_1220.jpg)
+XIAO-SENSEドライブとして認識されるのでuf2ファイルをドラッグ&ドロップします。
+![](img/IMG/xiao.jpg)
+これでキーボードとして認識されるようになります。
+### 2.5 インサートナットの圧入
+画像のプリント品にインサートナットを圧入します。メインボード#1も使用します。
+![](img/IMG/IMG_1199.jpg)
+メインボード#1を裏面に当て、インサートナットにはんだごてを押し付けます。
+![](img/IMG/IMG_1204.jpg)
+メインボード#1と出来るだけ段差がないようにします。
+![](img/IMG/IMG_1212.jpg)
+補強材をニッパーで切り取ります。
+![](img/IMG_1218.jpg)
+## 3 メインボード#️1のはんだ付け
+- XIAO BLEに付属することがあるピンヘッダは同梱のものより細いため、混同しないように捨ててください。
+- この組み立て方では動作確認を優先してマウス化の部品を後回しにしていますが、はんだ付けは背の低い部品から行う方が楽です。
+### 3.1 はんだ付けで気を付けること
+表面張力でパッドの上だけに溶けたはんだが広がるのをイメージします。フラックスを塗るととても簡単になります。
+![](img/IMG_0654.jpg)
+パッドや部品の足をよく熱して基板と部品両方に電気が通るようにします。
+はんだが小さい穴（VIA）と繋がってしまわないように気をつけてください。
+![](img/IMG_0668.jpg)
+スルーホールの部品から出る足は2mm程度になるように気をつけます。2.5mmを超えると底面の3Dプリント品と干渉することがあります。
+差し込んだ後にマスキングテープで固定してはんだ付けをすると楽になります。
+![](img/IMG_0647.jpg)
+また、3Dプリント品の融点は200度前後です。直接はんだごてが当たると溶けてしまうので気をつけます。
+
+### 3.2 XIAO BLEのはんだ付け
+5V（VUSB)、GP0の位置で裏表を確認してはんだ付けします。
+![](img/IMG_1228.jpg)
+裏面のRESET（1）とBAT+（2）のパッドを配線します。
+RESETのパッドは剥がれるとリセットボタンも使えなくなってしまうので配線材を引っ張らないように気をつけるか、はんだ付けしないことも検討してください（背面ボタンでのリセットはできなくなります）。
+![](img/IMG_1230.jpg)
+（オプション）マウス化する場合はNFCの二つも配線します。
+![](img/IMG_1233.jpg)
+ランナーIの部品と干渉しないように気をつけます。
+![](img/IMG_1237.jpg)
+### 3.3 ダイオード、シフトレジスターのはんだ付け
+D1からD7、SR1、SR2にマークを目印にしてはんだ付けします。
+![](img/IMG_1241.jpg)
+
+### 3.4 コンデンサーのはんだ付け
+C1とC2にはんだ付けします。104と書いてあります。センサーセットのものは少し小さく特性が違うので間違えないように気をつけます。
+![](img/IMG_1246.jpg)
+### 3.5 側面ボタンとスライドスイッチのはんだ付け
+側面ボタン4つをSS1からSS4に、スライドスイッチ1つをSLに差し込んではんだ付けします。
+![](img/IMG_1249.jpg)
+
+### 3.6 背面ボタンのはんだ付け
+背面ボタンは裏側から差し込みます。
+![](img/IMG_1253.jpg)
+### 3.7 動作の確認
+USBケーブルでPCに接続して側面ボタンと、背面ボタンのうち並んだ2つの動作を確認します。
+![](img/IMG_1256.jpg)
+残りの背面ボタンを2回すばやく押してXIAO-SENSEドライブが出てくることを確認します。ファームウェアの更新の際に使います。
+![](img/IMG_1259.jpg)
+確認をしたらケーブルを外します。スライドスイッチはバッテリーのオンオフに使われます。
+### 3.8  （オプション）マウス化用部品のはんだ付け
+白枠内にレギュレーターをVR、コンデンサーをC3からC9、Cin、Cout、抵抗をRにはんだ付けします。
+![](img/IMG_1263.jpg)
+C9の3.3uF 16Vのコンデンサーには極性があるので確認してからはんだ付けします。
+![](img/IMG_1268.jpg)
+センサーセットのレギュレーターは平面が下になります。
+![](img/IMG_1272.jpg)
+リードタイプの部品ははんだ付けの後に寝かせます。
+![](img/IMG_1273.jpg)
+センサーをはんだ付けします。シルク印刷と小さいマークを合わせます。
+![](img/IMG_1281.jpg)
+裏面のシールを剥がしてレンズをのせ、表面の足を溶かして軽く固定します。
+![](img/IMG_1286.jpg)
+![](img/IMG_1291.jpg)
+ランナーIの部品を合わせてPCに接続して、センサーに反応があることを確認します。
+![](img/IMG_1292.jpg)
+動かない場合はコンデンサーが間違っていたり足がブリッジしていないか確認してみてください。
+作業中はレンズを傷つけないように気をつけます。
+### 3.9 ピンソケットのはんだ付け
+ピンソケット、ピンヘッダーを3ピンずつ8つ切り出します。
+![](img/IMG_0864.jpg)
+ピンソケットにピンヘッダーの短い方を差し込んで、ピンソケット側をメインボード#1に配置します。
+![](img/IMG_1302.jpg)
+ランナーIIの部品を6つ差し込みます。入りにくい場合はピンヘッダーやピンソケットの切れ跡を削ってください。
+![](img/IMG_1479.jpg)
+メインボード#2をピンヘッダーに合わせてかぶせます（まだはんだ付けしません）。全てのピンヘッダーを通すのが難しい時は無理をして基板を擦らないように数個ずつにします。
+![](img/IMG_1306.jpg)
+裏返したらメインボード#1にピンソケットをはんだ付けします。
+![](img/IMG_1311.jpg)
+はんだ付けが終わったら表に戻してメインボード#2を外します。
+プリント品を外す必要はありません。
+![](img/IMG_1479.jpg)
+メインボード#2をはんだ付けしてしまっていた場合はテコを使って外してください。ピンヘッダが曲がると接触不良の原因となるため垂直に引き抜くことを意識してください。
+![](img/IMG_1433.jpg)
+テスターがある場合はXIAO BLE、シフトレジスターのGPIOとピンヘッダーが導通していることを確認します。
+![](img/IMG/test.jpg)
+
+### 3.10 バッテリーのはんだ付け
+スライドスイッチが画像と同じ状態になっていることを確認してバッテリーをはんだ付けします。
+![](img/IMG_1315.jpg)
+必ず＋と−を確認してください。はんだ付けが終わったらスライドスイッチをオンにしてBluetooth対応機器と接続できるか確かめます。
+
+起動しているのに接続に難がある場合は一度こちらのファームウェアでリセットしてからテストファームウェアを入れ直してください。
+- [settings_reset-seeeduino_xiao_ble-zmk.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/download/0.28.2/settings_reset-seeeduino_xiao_ble-zmk.uf2)
+## 3.11 下半分の組み立て
+ランナーIの部品の小さな穴にRP2040-Zeroのリセットボタン用パーツを溶接します。
+![](img/IMG_1323.jpg)
+ランナーIの部品を組み合わせ、ランナーIIの部品を5個置きます。中央の部品の向きに気をつけます。
+![](img/IMG_1328.jpg)
+
+ここに乗せるボタンのストッパーの角が干渉するのでニッパーで少し斜めに切ります。
+![](img/IMG_1440.jpg)
+
+上からメインボード#1を置き、ランナーIの角の部品の一つにナットを取り付けます。
+![](img/IMG_1331.jpg)
+合計9個のランナーIの部品と4つのナットを取り付けました。
+![](img/IMG_1335.jpg)
+裏面にマウスソールを貼り、安全な場所に保管します。
+![](img/IMG_1342.jpg)
+## 4 メインボード#2のはんだ付け
+
+### 4.1 ダイオードのはんだ付け
+D8からD24までをはんだ付けします。D19以降は取り付ける面が違います。
+![](img/IMG_1344.jpg)
+![](img/IMG_1346.jpg)
+### 4.2 MXソケットのはんだ付け
+S1からS10まではんだ付けします。
+![](img/IMG_1347.jpg)
+### 4.3  レバーボタンのはんだ付け
+L1、L2に取り付けます。側面にも接点があるのではんだ付けします。
+![](img/IMG_1354.jpg)
+### 4.4 マウスボタンのはんだ付け
+M1、M2に取り付けます。クリックバーの位置をシルク印刷に合わせます。
+![](img/IMG_1363.jpg)
+### 4.5  1Uホイールエンコーダーの組み立て
+小袋の部品のうち以下のものを使用します。
+![](img/IMG_1369.jpg)
+
+|     | 部品名        | 個数  |               |
 | --- | ---------- | --- | ------------- |
-| 1   | Wheel       | 2   |               |
-| 2   | Shaft       | 2   |               |
-| 3   | Spacer      | 2   |               |
-| 4   | Base        | 2   |               |
-| 5   | Cover        | 2   |               |
-| 6   | Wheel Encoder | 2   | 6x6x7         |
-| 7   | tactile Button    | 2   | 11mm          |
-| 8   | Short screws    | 4   | M2 5mm or 6mm |
-| 9   | Nut        | 4   | M2            |
+| 1   | ホイール       | 2   |               |
+| 2   | シャフト       | 2   |               |
+| 3   | スペーサー      | 2   |               |
+| 4   | ベース        | 2   |               |
+| 5   | カバー        | 2   |               |
+| 6   | ホイールエンコーダー | 2   | 6x6x7         |
+| 7   | クリックボタン    | 2   | 11mm          |
+| 8   | ネジ（小）      | 4   | M2 5mm or 6mm |
+| 9   | ナット        | 4   | M2            |
 
-Solder the tactile button and wheel encoder to E1 and E2 in the orientation chosen. The build guide uses the orientation shown in the image.
-![](img/IMG_0963.jpg)  
-Insert the shaft from the flat side of the wheel.
-![](img/IMG_0969.jpg)  
-Attach the wheel to the encoder. Ensure that the hexagonal holes align with the hexagonal shaft.
-![](img/IMG_0973.jpg)  
-Fit the spacer and place it on the tactile button.
-![](img/IMG_0980.jpg)  
-Attach the base with screws and nuts.
-![](img/IMG_0983.jpg)  
-Install the cover.
-![](img/IMG_0987.jpg)  
+E1とE2に、方向を選んでクリックボタンとホイールエンコーダーをはんだ付けします。ビルドガイドでは画像の向きにしました。
+![](img/IMG/IMG_1370.jpg)
+ホイールの平らな面からシャフトを差し込みます。
+![](img/IMG/IMG_1378.jpg)
+エンコーダーにホイールを取り付けます。六角形の穴と六角形の軸が合うようにします。
+![](img/IMG/IMG_1379.jpg)
+スペーサーを取り付けてタクトスイッチに乗せます。
+![](img/IMG/IMG_1386.jpg)
+ベースをネジとナットで取り付けます。
+![](img/IMG/IMG_1389.jpg)
+カバーを取り付けます。
+![](img/IMG/IMG_1394.jpg)
+### 4.6 ロータリーエンコーダーのはんだ付け
+STにはんだ付けします。
+![](img/IMG/IMG_1396.jpg)
+### 4.7 トップカバーの取り付け
+裏面からネジ（短）で取り付けます。
+![](img/IMG/IMG_1397.jpg)
+マウスボタンがクリック可能なことを確認します。
+![](img/IMG/IMG_1400.jpg)
+### 4.8 ピンヘッダのはんだ付け
+改めてメインボード#2の部品の向き、はんだ付けの状態を確認します。
+メインボード#2の裏面の、バッテリーが当たる部分をテープやゴムシートなどで保護します。
+![](img/IMG/IMG_1420.jpg)
+メインボード#1に乗せてピンヘッダをはんだ付けします。
+![](img/IMG/IMG_1412.jpg)
+隙間をできるだけ減らすようにしながら角のピンヘッダから一つずつ作業をすると綺麗に出来上がります。
+### 4.9 動作確認
+ロータリーエンコーダーにランナーIについていたシャフトを取り付けます。
+![](img/IMG/IMG_1415.jpg)
+USBケーブルでPCに接続して動作を確認します。キースイッチを一つ使ってソケットの動作を確認していきます。キースイッチの足が折れないように気をつけてください。
+![](img/IMG_1426.jpg)
+動作を確認したらUSBケーブルを取り外します。
+### 4.10 スイッチプレートを取り付ける
+メインボード#2とスイッチプレートの位置を合わせてキースイッチを取り付けてゆきます。
+![](img/IMG/IMG_1430.jpg)
+キーキャップとノブカバーを取り付けたら完成です。
+![](img/IMG/IMG_1444.jpg)
 
-### 4.7 Soldering rotary encoders
+ZMKのリポジトリはこちらです。
+- https://github.com/Taro-Hayashi/zmk-config-th/tree/Cannonball-LL
 
-Solder to ST.
-![](img/IMG_0992.jpg)  
+## 5 Misc
 
-### 4.8 Installing the top cover
-
-Attach from the rear side with short screws.
-![](img/IMG_0998.jpg)  
-Ensure that the mouse buttons are clickable.
-![](img/IMG_1002.jpg)  
-
-### 4.9 Soldering of pin headers
-
-Once again, check the orientation and soldering of the components on mainboard #2.
-If everything looks OK, put it on mainboard #1 and solder the pin headers.
-![](img/IMG_1019.jpg)  
-Working one by one, starting with the corner pin headers, while trying to reduce the gaps as much as possible, will produce a clean result.
-
-### 4.10 Checking the operation
-
-Attach the shaft from Runner I to the rotary encoder.
-![](img/IMG_1097.jpg)  
-Connect to a PC to check operation. Check the operation of the socket with one of the keyswitches. Be careful not to break the leg of the keyswitch.
-![](img/IMG_1099.jpg)  
-After checking operation, disconnect the USB cable.
-
-### 4.11 Installing the switch plate
-Align the switch plate with main board #2 and install the keyswitch.
-![](img/IMG_1101.jpg)  
-Once all 10 pieces are fitted, attach the rubber feet.
-![](img/IMG_1032.jpg)  
-The keycap and knob cover are completed when fitted.
-![](img/IMG_1104.jpg)  
-From here, the work is done using a PC.
-
-## 5 Customise
-
-### 5.1 Update to Remap-compatible firmware
-
-Download the uf2 file here.
-- [tarohayashi_cannonballll_default.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/latest/download/tarohayashi_cannonballll_default.uf2)
-
-If you connect it to the PC with the USB cable while pressing the key between the wheels, it will be recognised as an RPI-RP2 drive. If this is not possible, connect it while pressing the round button on the backside.
-![](img/IMG_1108.jpg)  
-After dragging and dropping the uf2 file onto the RPI-RP2 drive, the update to Remap-compatible firmware is complete.
-
-### 5.2 Replacing keys with Remap.
-
-Connect to Remap and select Customise.
-
-- remap https://remap-keys.app/
-
-![](img/remap_start.jpg)  
-Continue on and select Cannonball LL.
-![](img/remap_key.jpg)  
-Drag and drop from the key list below and press the write button in the top right corner to swap keys.
-![](img/remap_mod.jpg)  
-You can also set simultaneous presses with modifier keys by clicking on the key.
-
-### 5.2 Rotary encoder settings
-Click on the direction of rotation to switch the key to be registered.
-![](img/remap_encoder.jpg)  
-The leading rotary encoder push-in is disabled.
-
-### 5.3 (Optional) LED adjustment.
-The luminescence can be adjusted via the icons in the image.
-![](img/remap_led.jpg)  
-
-### 5.4 Special keys
-In addition to the standard functions provided in Remap, there are special shortcuts and configuration keys on the Functions tab.
-![](img/remap_vuk.jpg)  
-
-| Key name         | Keycode      |                                    |
-| ----------- | ---------- | ------------------------------------- |
-| Cmd / Ctrl  | CMD_CTL    | Control（Windows） / Command（MacOS、iOS） |
-| Undo        | UNDO       | Cmd / Ctrl + Z                        |
-| Redo        | REDO       | Cmd / Ctrl + Shift + Z                |
-| Copy        | COPY       | Cmd / Ctrl + C                        |
-| Cut         | CUT        | Cmd / Ctrl + X                        |
-| Paste       | PASTE      | Cmd / Ctrl + V                        |
-| Scale Up    | SC_UP      | Cmd / Ctrl + +                        |
-| Scale Down  | SC_DOWN    | Cmd / Ctrl + -                        |
-| Scale Reset | SC_RESET   | Cmd / Ctrl + 0                        |
-| Captcha     | CAPTCHA    | Win + Shift + 4 / Command + Shift + 4 |
-| Save        | SAVE       | Cmd / Ctrl + S                        |
-| Save As     | SAVEAS     | Cmd / Ctrl + Shift + S                |
-| Close Tab   | CLOSETAB   | Cmd / Ctrl + W                        |
-| Restore Tab | RSTRTAB    | Cmd / Ctrl + Shift + T                |
-| Next App    | NEXTAPP    | Cmd / Ctrl +                          |
-| Prev App    | PREVAPP    | Cmd / Ctrl +                          |
-| RGB Layers  | RGB_LAYERS | On/off functionality to change the colour of the LEDs layer by layer.              |
-
-## 6 Misc
-
-### 6.1 Maintenance
+### 5.1 Maintenance
 
 If the knob becomes loose or the 1U wheel encoder cover comes off easily, it can be adjusted and fixed by melting it with a soldering iron.
 If the top and bottom fastenings become loose or poor contact, consider replacing the pin headers and pin sockets.
 
-### 6.2 Data for printing
+### 5.2 About unused pads
+
+これらのパッドはLEDとセンタープッシュに繋がっています。
+
+### 5.3 Data for printing
+
+- [stl](/stl)
 
 Optional or colour-changed parts can be printed.
 ![](img/IMG_1892.jpg)  
-
-- [stl](/stl)
   
-### 6.3 Firmware code.
+### 5.5 Thanks
 
-- [keyboards/tarohayashi/cannonballll(GitHub)](https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/cannonballll)
-                                                  |
-### 6.4 販売サイト
+I referred to snize([@snize](https://x.com/snize))'s SEIBOKU for the selection of components and the firmware code.
+
+- https://github.com/snize/BOB-PMW3610-SEIBOKU
+  
+### 5.6 Sales website
 
 - BOOTH - [https://tarohayashi.booth.pm/items/6736492](https://tarohayashi.booth.pm/items/6736492)
+
