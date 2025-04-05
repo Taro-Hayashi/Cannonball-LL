@@ -53,8 +53,7 @@
 | XIAO BLE | 1   |
 | Lead wire | 1   |
 | LiPo battery | 1   |
-| Protective tape, rubber sheeting, etc.
- | 1   |
+| Protective tape, rubber sheeting, etc. | 1   |
 
 ### 1.4 Further additional required to a wireless mouse
 Capacitors and resistors are available in leaded or 1206 and 0805 packages.
@@ -85,6 +84,7 @@ The regulator can be TO92 or SOT23-5. The image shows the sensor set on BOOTH.
 | Tape or glue           | 1   | When using Choc switches, isolate the head of the pin header to prevent unexpected operation. |
 | [3-keys blocker](stl/)           | 1   | Blocks the palm of the hand when held. |
 | [Switch plate](stl/)           | 1   | 3DP switch plate with invisible pin header heads. |
+| Strap         |    | |
 
 ### 1.6 Tools required
 ![](img/IMG_1469.jpg)  
