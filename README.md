@@ -319,50 +319,59 @@ Working one by one, starting with the corner pin headers, while trying to reduce
 
 ### 4.10 Checking the operation
 
-ロータリーエンコーダーにランナーIについていたシャフトを取り付けます。
+Attach the shaft from Runner I to the rotary encoder.
 ![](img/IMG_1097.jpg)  
-PCに接続して動作を確認します。キースイッチを一つ使ってソケットの動作を確認していきます。キースイッチの足が折れないように気をつけてください。
+Connect to a PC to check operation. Check the operation of the socket with one of the keyswitches. Be careful not to break the leg of the keyswitch.
 ![](img/IMG_1099.jpg)  
-動作を確認したらUSBケーブルを取り外します。
-### 4.11 スイッチプレートを取り付ける
-メインボード#2とスイッチプレートの位置を合わせてキースイッチを取り付けます。
-![](img/IMG_1101.jpg)  
-10個全て取り付けたらゴム足を付けます。
-![](img/IMG_1032.jpg)  
-キーキャップとノブカバーを取り付けたら完成です。
-![](img/IMG_1104.jpg)  
-ここからはPCを使った作業になります。
-## 5 カスタマイズ
+After checking operation, disconnect the USB cable.
 
-### 5.1 Remap対応ファームウェアに更新する
-こちらのuf2ファイルをダウンロードします。
+### 4.11 Installing the switch plate
+Align the switch plate with main board #2 and install the keyswitch.
+![](img/IMG_1101.jpg)  
+Once all 10 pieces are fitted, attach the rubber feet.
+![](img/IMG_1032.jpg)  
+The keycap and knob cover are completed when fitted.
+![](img/IMG_1104.jpg)  
+From here, the work is done using a PC.
+
+## 5 Customise
+
+### 5.1 Update to Remap-compatible firmware
+
+Download the uf2 file here.
 - [tarohayashi_cannonballll_default.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/latest/download/tarohayashi_cannonballll_default.uf2)
 
-ホイールの間のキーを押しながらUSBケーブルでPCに接続するとRPI-RP2ドライブとして認識されます。無理だった場合は裏面の丸ボタンを押しながら接続してください。
+If you connect it to the PC with the USB cable while pressing the key between the wheels, it will be recognised as an RPI-RP2 drive. If this is not possible, connect it while pressing the round button on the backside.
 ![](img/IMG_1108.jpg)  
-RPI-RP2ドライブにuf2ファイルをドラッグ&ドロップをしたらRemap対応のファームウェアへの更新が完了です。
+After dragging and dropping the uf2 file onto the RPI-RP2 drive, the update to Remap-compatible firmware is complete.
 
-### 5.2 Remapでキーを入れ替える
-Remapに接続してカスタマイズを選びます。
+### 5.2 Replacing keys with Remap.
+
+Connect to Remap and select Customise.
+
 - remap https://remap-keys.app/
+
 ![](img/remap_start.jpg)  
-そのまま進んでCannonball LLを選びます。
+Continue on and select Cannonball LL.
 ![](img/remap_key.jpg)  
-下のキーリストからドラッグ&ドロップして、右上の書き込みボタンを押すとキーの入れ替えができます。
+Drag and drop from the key list below and press the write button in the top right corner to swap keys.
 ![](img/remap_mod.jpg)  
-キーをクリックすると修飾キーとの同時押しの設定もできます。
-### 5.2 ロータリーエンコーダーの設定
-回転方向をクリックすると登録するキーを切り替えることができます。
+You can also set simultaneous presses with modifier keys by clicking on the key.
+
+### 5.2 Rotary encoder settings
+Click on the direction of rotation to switch the key to be registered.
 ![](img/remap_encoder.jpg)  
-先頭のロータリーエンコーダーの押し込みは無効になっています。
-### 5.3 （オプション）LEDの調節
-画像のアイコンから発光を調整できます。
+The leading rotary encoder push-in is disabled.
+
+### 5.3 (Optional) LED adjustment.
+The luminescence can be adjusted via the icons in the image.
 ![](img/remap_led.jpg)  
-### 5.4 特殊なキー
-Remapに標準で用意されている機能のほか、Functions タブに特殊なショートカットや設定用のキーがあります。
+
+### 5.4 Special keys
+In addition to the standard functions provided in Remap, there are special shortcuts and configuration keys on the Functions tab.
 ![](img/remap_vuk.jpg)  
 
-| キー名         | キーコード      | 詳細                                    |
+| Key name         | Keycode      |                                    |
 | ----------- | ---------- | ------------------------------------- |
 | Cmd / Ctrl  | CMD_CTL    | Control（Windows） / Command（MacOS、iOS） |
 | Undo        | UNDO       | Cmd / Ctrl + Z                        |
@@ -380,41 +389,26 @@ Remapに標準で用意されている機能のほか、Functions タブに特�
 | Restore Tab | RSTRTAB    | Cmd / Ctrl + Shift + T                |
 | Next App    | NEXTAPP    | Cmd / Ctrl +                          |
 | Prev App    | PREVAPP    | Cmd / Ctrl +                          |
-| RGB Layers  | RGB_LAYERS | LEDの色をレイヤーごとに変える機能のオン/オフ              |
+| RGB Layers  | RGB_LAYERS | On/off functionality to change the colour of the LEDs layer by layer.              |
 
-## 6 その他
+## 6 Misc
 
-### 6.1 メンテナンス
-ノブが緩くなったり1Uホイールエンコーダーのカバーが外れやすい場合ははんだごてで溶かすことで調節、固定することができます。
-上下の締結にゆるみが出たり接触が悪くなった場合はピンヘッダとピンソケットの交換を検討してください。
-### 6.2 プリント品のプリント用データ
-オプションのパーツや色を変えたパーツを印刷できます。
+### 6.1 Maintenance
+
+If the knob becomes loose or the 1U wheel encoder cover comes off easily, it can be adjusted and fixed by melting it with a soldering iron.
+If the top and bottom fastenings become loose or poor contact, consider replacing the pin headers and pin sockets.
+
+### 6.2 Data for printing
+
+Optional or colour-changed parts can be printed.
+![](img/IMG_1892.jpg)  
+
 - [STL.md](STL.md)
-### 6.3 ファームウェアのコード
+  
+### 6.3 Firmware code.
+
 - [keyboards/tarohayashi/cannonballll(GitHub)](https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/cannonballll)
-### 6.4 保守品の入手先
+                                                  |
+### 6.4 販売サイト
 
-| 部品名          | 型番            | 入手先の例                                                                                                                    |
-| ------------ | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| ネジ（短)      | M2 5~6mm      | [遊舎工房](https://shop.yushakobo.jp/products/a0800t2?variant=37665432699041)、[モノタロウ](https://www.monotaro.com/p/2902/1476/) |
-| ネジ（長)      | M2 10mm       | [遊舎工房](https://shop.yushakobo.jp/products/a0800t2?variant=43940945166567)、[モノタロウ](https://www.monotaro.com/p/2902/1494)|
-| ナット          | M2            | [遊舎工房](https://shop.yushakobo.jp/products/4094)、[モノタロウ](https://www.monotaro.com/g/06150311)                           |
-| インサートナット     | M2 5mm or 6mm | [モノタロウ](https://www.monotaro.com/p/4210/7484/)                                                                         |
-| ダイオード        | 1N4148        | [遊舎工房](https://shop.yushakobo.jp/products/a0800di-01-100)、[秋月電子通商](https://akizukidenshi.com/catalog/g/g100941/)       |
-| コンデンサー       | 0.1uF         | [秋月電子通商](https://akizukidenshi.com/catalog/g/g100090/)                                                                 |
-| シフトレジスター     | 74HC595       | [秋月電子通商](https://akizukidenshi.com/catalog/g/g114053/)                                                                 |
-| 背面ボタン        | 3x6x4.3       | [秋月電子通商](https://akizukidenshi.com/catalog/g/g108073/)                                                                 |
-| 側面ボタン        | 3x6x5         | [秋月電子通商](https://akizukidenshi.com/catalog/g/g114890/)                                                                 |
-| スライドスイッチ     | SK12F14       | [秋月電子通商](https://akizukidenshi.com/catalog/g/g115703/)（同型、要加工)                                                         |
-| マウスボタン       | YD-003        | [秋月電子通商](https://akizukidenshi.com/catalog/g/g114312/)（同型、未検証)                                                         |
-| レバーボタン       | TMHU27        | [秋月電子通商](https://akizukidenshi.com/catalog/g/g108071/)（同型、未検証)                                                         |
-| ロータリーエンコーダー  | RKJXT1F42001  | [マルツ電子](https://www.marutsu.co.jp/pc/i/2578366/)                                                                       |
-| ゴム足          |               | [遊舎工房](https://shop.yushakobo.jp/products/a0800ur-01-6)                                                                |
-| ピンヘッダー       | 40ピン          | [秋月電子通商](https://akizukidenshi.com/catalog/g/g100167/)                                                                 |
-| ピンソケット       | 14ピン          | [秋月電子通商](https://akizukidenshi.com/catalog/g/g103138/)                                                                 |
-| MXソケット       | CPG151101S11  | [遊舎工房](https://shop.yushakobo.jp/products/a01ps)                                                                       |
-| 1Uホイールエンコーダー | THQWGD001C    | [BOOTH](https://tarohayashi.booth.pm/items/5967252)                                                                    |
-| マイコンボード      | RP2040-Zero   | [スイッチサイエンス](https://www.switch-science.com/products/7886/)                                                             |
-
-### 6.5 販売サイト
-- BOOTH - [https://tarohayashi.booth.pm/items/6736492](https://tarohayashi.booth.pm/items/6736492 "商品ページを見る")
+- BOOTH - [https://tarohayashi.booth.pm/items/6736492](https://tarohayashi.booth.pm/items/6736492)
