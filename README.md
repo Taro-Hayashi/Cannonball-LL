@@ -2,7 +2,7 @@
 
 ![](img/cannonballll_w.jpg)  
 
-[日本語(note)](https://note.com/taro_hayashi/n/n3da1e116aa8d)
+[日本語](https://note.com/taro_hayashi/n/n3da1e116aa8d)
 
 ## 1 Introduction
 
