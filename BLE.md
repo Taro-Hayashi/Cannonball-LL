@@ -149,7 +149,7 @@ Download the uf2 file here.
 Once the XIAO BLE is connected to the PC via the USB cable, press the small reset button twice quickly.
 ![](img/IMG_1220.jpg)
 Drag and drop the uf2 file as it is recognised as a XIAO-SENSE drive.
-![](img/IMG/xiao.jpg)
+![](img/drive.jpg)
 It will now be recognised as a keyboard.
 
 ### 2.5 Press fitting of insert nuts
