@@ -24,5 +24,5 @@
 | Switch plate   |
 | 3-Keys Blocker |
 | Mech knob      |
-| Bottom            |
-| Sensor cover      |
+| integrated Bottom            |
+| integrated Sensor cover      |
