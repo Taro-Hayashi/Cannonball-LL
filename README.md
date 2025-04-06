@@ -411,3 +411,9 @@ Optional or colour-changed parts can be printed.
 
 - [keyboards/tarohayashi/cannonballll(GitHub)](https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/cannonballll)
 
+### 6.4 Thanks
+
+I referred to snize([@snize](https://x.com/snize))'s SEIBOKU for the selection of components and the firmware code of PMW3610.
+
+- https://github.com/snize/BOB-PMW3610-SEIBOKU
+
