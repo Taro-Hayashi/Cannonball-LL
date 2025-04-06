@@ -276,9 +276,9 @@ Weld the part for the RP2040-Zero reset button in the small hole in the runner I
 ![](img/IMG_1323.jpg)  
 Combine the parts of runner I and place four parts of runner II. Pay attention to the orientation of the central component.
 ![](img/IMG_1935.jpg)  
-(optional) If you have sensors on, do this.
+(optional) If a sensor is attached, the centre should be a combination of these two parts.
 ![](img/IMG_1328.jpg)  
-(optional) The corner of the button stopper to be placed here interferes, so it is cut at a slight angle with nippers.
+(optional) If a sensor is attached, the corner of the button stopper to be placed here interferes, so use nippers to cut it slightly at an angle.
 ![](img/IMG_1440.jpg)  
 Place mainboard #1 on top and fit a nut on one of the corner components of runner I.
 ![](img/IMG_1331.jpg)  
