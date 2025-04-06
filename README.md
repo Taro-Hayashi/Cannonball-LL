@@ -44,7 +44,7 @@
 
 | Types              | Quantities  |
 | ---------------- | --- |
-| Keyswitches      | 10  |
+| MX Keyswitches      | 10  |
 | Keycaps          | 10  |
 | Type-C USB cable | 1   |
 
