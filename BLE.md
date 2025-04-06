@@ -274,9 +274,11 @@ If you have connection difficulties even though the board is activated, reset th
 
 Weld the part for the RP2040-Zero reset button in the small hole in the runner I component.
 ![](img/IMG_1323.jpg)  
-Combine the parts of runner I and place five parts of runner II. Pay attention to the orientation of the central component.
+Combine the parts of runner I and place four parts of runner II. Pay attention to the orientation of the central component.
+![](img/IMG_1935.jpg)  
+(optional) If you have sensors on, do this.
 ![](img/IMG_1328.jpg)  
-The corner of the button stopper to be placed here interferes, so it is cut at a slight angle with nippers.
+(optional) The corner of the button stopper to be placed here interferes, so it is cut at a slight angle with nippers.
 ![](img/IMG_1440.jpg)  
 Place mainboard #1 on top and fit a nut on one of the corner components of runner I.
 ![](img/IMG_1331.jpg)  
