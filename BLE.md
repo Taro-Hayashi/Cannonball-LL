@@ -399,11 +399,8 @@ Optional or colour-changed parts can be printed.
   
 ### 5.5 Thanks
 
-I referred to snize([@snize](https://x.com/snize))'s SEIBOKU for the selection of components and the firmware code.
+I referred to snize([@snize](https://x.com/snize))'s SEIBOKU for the selection of components and the firmware code of pmw3610.
 
 - https://github.com/snize/BOB-PMW3610-SEIBOKU
   
-### 5.6 Sales website
-
-- BOOTH - [https://tarohayashi.booth.pm/items/6736492](https://tarohayashi.booth.pm/items/6736492)
 
