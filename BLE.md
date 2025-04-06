@@ -258,7 +258,7 @@ If mainboard #2 has been soldered in place, use leverage to remove it. Be aware 
 ![](img/IMG_1433.jpg)  
 If a multimater is available, check that there is continuity between the XIAO BLE, the shift register GPIO and the pin headers.
 (The battery is in the picture because the photo was taken later.)
-![](img/IMG/test.jpg)  
+![](img/test.jpg)  
 
 ### 3.10 Battery soldering
 
