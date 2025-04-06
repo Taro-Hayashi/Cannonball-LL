@@ -48,7 +48,7 @@
 
 | Types              | Quantities  |
 | ---------------- | --- |
-| Keyswitches      | 10  |
+| MX Keyswitches      | 10  |
 | Keycaps          | 10  |
 | XIAO BLE | 1   |
 | Lead wire | 1   |
@@ -183,10 +183,10 @@ Also, the melting point of 3D printed products is around 200°C. Be careful not 
 
 5 V (VUSB), solder the device in the GP0 position, making sure it is on the reverse side.
 ![](img/IMG_1228.jpg)  
-Wire the RESET (1) and BAT+ (2) pads on the back.  
+Wire the RESET to hole 1 and BAT+ to hole 2 on the back.  
 Be careful not to pull on the wiring material or consider not soldering the RESET pad, as if it is stripped, the reset button will also be unusable (resetting with the back button will not be possible).
 ![](img/IMG_1230.jpg)  
-(Optional) If you want to convert it to a mouse, you can also wire two NFC's.
+(Optional) If you want to convert it to a mouse, you also wire two NFC's, 3 to 3 and 4 to 4.
 ![](img/IMG_1233.jpg)  
 Take care not to interfere with runner I components.
 ![](img/IMG_1237.jpg)  
