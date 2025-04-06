@@ -386,7 +386,7 @@ If the top and bottom fastenings become loose or poor contact, consider replacin
 ### 5.2 About unused pads
 
 These pads are connected to the LEDs and the centre push.
-![]()  
+![](img/IMG_1475.jpg)  
 
 ### 5.3 Data for 3D Printing
 
