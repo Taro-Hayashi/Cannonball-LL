@@ -266,7 +266,7 @@ Ensure that the slide switch is in the same condition as in the picture and sold
 ![](img/IMG_1315.jpg)  
 Make sure to check + and -. After soldering is finished, turn the slide switch on and check that it can be connected to a Bluetooth-enabled device.
   
-If you have connection difficulties even though the system is activated, reset the system once with this firmware and then re-install the test firmware.
+If you have connection difficulties even though the board is activated, reset the board once with this firmware and then re-install the test firmware.
 
 - [settings_reset-seeeduino_xiao_ble-zmk.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/download/0.28.2/settings_reset-seeeduino_xiao_ble-zmk.uf2)
   
