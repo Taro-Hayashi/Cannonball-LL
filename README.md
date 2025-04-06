@@ -51,7 +51,7 @@
 ### 1.3 Optional
 
 See the guide below for more information on going wireless.
-- [Cannonball LL(wireless version)](BLE.md)
+- [Cannonball LL Build Manual (wireless)](BLE.md)
 
 
 | Types                    | Quantitie  |                                                                                             |
