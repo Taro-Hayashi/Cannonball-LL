@@ -246,17 +246,18 @@ Cut out eight pin sockets and pin headers with three pins each.
 Insert the short end of the pin header into the pin socket and place the pin socket side on main board #1.
 ![](img/IMG_1302.jpg)  
 Insert the six Runner II components. If they are difficult to insert, shave off the cut marks on the pin headers or pin sockets.
-![](img/IMG_1479.jpg)  
+![](img/IMG_1928.jpg)  
 Cover the main board #2 with the pin headers (do not solder yet). If it is difficult to get all the pin headers through, force a few at a time to avoid rubbing the board.
 ![](img/IMG_1306.jpg)  
 Once flipped over, solder the pin socket to main board #1.
 ![](img/IMG_1311.jpg)  
 After soldering is complete, return to the front and remove main board #2.  
 Printed items do not need to be removed.
-![](img/IMG_1479.jpg)  
+![](img/IMG_1928.jpg)  
 If mainboard #2 has been soldered in place, use leverage to remove it. Be aware that if the pin header is bent, it may cause poor contact, so pull it out vertically.
 ![](img/IMG_1433.jpg)  
 If a multimater is available, check that there is continuity between the XIAO BLE, the shift register GPIO and the pin headers.
+(The battery is in the picture because the photo was taken later.)
 ![](img/IMG/test.jpg)  
 
 ### 3.10 Battery soldering
