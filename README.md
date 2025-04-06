@@ -410,7 +410,4 @@ Optional or colour-changed parts can be printed.
 ### 6.3 Firmware code.
 
 - [keyboards/tarohayashi/cannonballll(GitHub)](https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/cannonballll)
-                                                  
-### 6.4 Sales website
 
-- BOOTH - [https://tarohayashi.booth.pm/items/6736492](https://tarohayashi.booth.pm/items/6736492)
