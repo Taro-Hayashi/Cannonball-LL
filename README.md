@@ -57,7 +57,7 @@ See the guide below for more information on going wireless.
 | Types                    | Quantitie  |                                                                                             |
 | ---------------------- | --- | --------------------------------------------------------------------------------------------- |
 | SK-6812MINI-E          | 14  |                                                                                               |
-| Choc V1/V2 keyswitches | 10  | Height can be reduced. Sockets and top plates are not used. It cannot coexist with MX switches.                                   |
+| Choc V1/V2 keyswitches | 10  | Height can be reduced. Sockets and top plates are not used. It cannot coexist with MX switches. Not suitable for holding and using due to the possibility of short-circuiting as described below.                                   |
 | Tape or glue           | 1   | When using Choc switches, isolate the head of the pin header to prevent unexpected operation. |
 | [3-keys blocker](stl/)           | 1   | Blocks the palm of the hand when held. |
 | [Switch plate](stl/)           | 1   | 3DP switch plate with invisible pin header heads. |
