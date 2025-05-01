@@ -404,6 +404,7 @@ I referred to snize([@snize](https://x.com/snize))'s SEIBOKU for the selection o
 - https://github.com/snize/BOB-PMW3610-SEIBOKU
 
 ### 5.6 Sales
+- Yushakobo: https://shop.yushakobo.jp/en/products/10537
 - Booth: https://tarohayashi.booth.pm/items/6736492
   
 
