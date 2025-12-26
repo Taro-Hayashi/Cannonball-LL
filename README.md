@@ -407,9 +407,13 @@ If the top and bottom fastenings become loose or poor contact, consider replacin
 Optional or colour-changed parts can be printed.
 ![](img/IMG_1892.jpg)  
   
-### 6.3 Firmware code.
+### 6.3 Firmware code
 
-- [keyboards/tarohayashi/cannonballll(GitHub)](https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/cannonballll)
+- [keyboards/tarohayashi/cannonballll](https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/cannonballll)
+
+### 6.4 Firmware for VIAL
+
+-[tarohayashi_cannonballll_vial.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/download/0.28.2/tarohayashi_cannonballll_vial.uf2)
 
 ### 6.4 Thanks
 
