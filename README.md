@@ -122,7 +122,7 @@ For the rotary encoder, cut the left and right claws with nippers.
 
 Download the uf2 file here.
 
-- [tarohayashi_cannonballll_test.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/latest/download/tarohayashi_cannonballll_test.uf2)
+- [tarohayashi_cannonballll_default.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/latest/download/tarohayashi_cannonballll_default.uf2)
 
 Connect to the PC via USB cable while pressing the BOOT button.
 ![](img/IMG_0581.jpg)  
@@ -338,16 +338,7 @@ From here, the work is done using a PC.
 
 ## 5 Customise
 
-### 5.1 Update to Remap-compatible firmware
-
-Download the uf2 file here.
-- [tarohayashi_cannonballll_default.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/latest/download/tarohayashi_cannonballll_default.uf2)
-
-If you connect it to the PC with the USB cable while pressing the key between the wheels, it will be recognised as an RPI-RP2 drive. If this is not possible, connect it while pressing the round button on the backside.
-![](img/IMG_1108.jpg)  
-After dragging and dropping the uf2 file onto the RPI-RP2 drive, the update to Remap-compatible firmware is complete.
-
-### 5.2 Replacing keys with Remap.
+### 5.1 Replacing keys with Remap.
 
 Connect to Remap and select Customise.
 
