@@ -376,18 +376,18 @@ The keycap and knob cover are completed when fitted.
 ## 5 Connect to VIAL
 Key mapping can be customized using VIAL. It can be connected even when wireless.
 - https://vial.rocks/
-
-When switched to Layer 1, moving the mouse scrolls the screen.
-
-You can configure cursor and scroll speeds using User Key, as well as save and restore these settings. The settings saved in Slot 1 will be applied when the device is connected.
-
-CPI+/-: Change cursor speed
-CSRTG: Disable cursor
-SNIPE: Low speed while button is held down
-SCR+/-: Change scroll speed
-SCRIX/Y: Reverse scroll direction
-SAV1/2: Save to slot
-LOD1/2: Load from slot
+  
+When switched to Layer 1, moving the mouse scrolls the screen.  
+  
+You can configure cursor and scroll speeds using User Key, as well as save and restore these settings. The settings saved in Slot 1 will be applied when the device is connected.  
+  
+CPI+/-: Change cursor speed  
+CSRTG: Disable curso  
+SNIPE: Low speed while button is held down  
+SCR+/-: Change scroll speed  
+SCRIX/Y: Reverse scroll direction  
+SAV1/2: Save to slot  
+LOD1/2: Load from slot  
 
 ## 6 Misc
 
