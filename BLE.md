@@ -375,7 +375,7 @@ The keycap and knob cover are completed when fitted.
 
 ### 4.11 Connect to VIAL
 Key mapping can be customized using VIAL. It can be connected even when wireless.
-- https://get.vial.today/
+- https://vial.rocks/
 
 ## 5 Misc
 
