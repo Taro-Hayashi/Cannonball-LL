@@ -373,42 +373,57 @@ Align the switch plate with main board #2 and install the keyswitch.
 The keycap and knob cover are completed when fitted.
 ![](img/IMG_1444.jpg)  
 
-### 4.11 Connect to VIAL
+## 5 Connect to VIAL
 Key mapping can be customized using VIAL. It can be connected even when wireless.
 - https://vial.rocks/
 
-## 5 Misc
+When switched to Layer 1, moving the mouse scrolls the screen.
 
-### 5.1 Maintenance
+You can configure cursor and scroll speeds using User Key, as well as save and restore these settings. The settings saved in Slot 1 will be applied when the device is connected.
+
+CPI+/-: Change cursor speed
+CSRTG: Disable cursor
+SNIPE: Low speed while button is held down
+SCR+/-: Change scroll speed
+SCRIX/Y: Reverse scroll direction
+SAV1/2: Save to slot
+LOD1/2: Load from slot
+
+## 6 Misc
+
+### 6.1 Maintenance
 
 If the knob becomes loose or the 1U wheel encoder cover comes off easily, it can be adjusted and fixed by melting it with a soldering iron.  
 If the top and bottom fastenings become loose or poor contact, consider replacing the pin headers and pin sockets.
 
-### 5.2 About unused pads
+### 6.2 About unused pads
 
 These pads are connected to the LEDs and the centre push.
 ![](img/IMG_1475.jpg)  
 
-### 5.3 RMK Firmware
-- https://github.com/Taro-Hayashi/rmk-cannonball-ll
+### 6.3 RMK Firmware
+- https://github.com/Taro-Hayashi/rmk-cannonball-ll]
 
-### 5.3 ZMK Firmware
+reset
+- [reset-bootloader.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/download/0.31.3/reset-bootloader.uf2)
+
+### 6.4 ZMK Firmware
 - https://github.com/Taro-Hayashi/zmk-config-th/tree/Cannonball-LL
 
-### 5.3 Data for 3D Printing
+### 6.5 Data for 3D Printing
 
 - [Data for 3D Printing](/stl)
 
 Optional or colour-changed parts can be printed.
 ![](img/IMG_1892.jpg)    
   
-### 5.5 Thanks
+### 6.6 Thanks
 
 I referred to snize([@snize](https://x.com/snize))'s SEIBOKU for the selection of components and the firmware code of pmw3610.
 
 - https://github.com/snize/BOB-PMW3610-SEIBOKU
 
-### 5.6 Sales
+### 6.7 Sales
 - Yushakobo: https://shop.yushakobo.jp/en/products/10537
 - Booth: https://tarohayashi.booth.pm/items/6736492
   
