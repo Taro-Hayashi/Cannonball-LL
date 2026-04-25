@@ -136,11 +136,12 @@ The shift register is pressed from the back with the runner II component (levera
 For the rotary encoder, cut the left and right claws with nippers.
 ![](img/IMG_1188.jpg)  
 
-### 2.4 Write test firmware
+### 2.4 Write firmware
 
-Download the uf2 file here.
+Download the uf2 file here. There are two types, differing in direction.
 
-- [Cannonball_LL-seeeduino_xiao_ble-zmk.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/download/0.28.2/Cannonball_LL-seeeduino_xiao_ble-zmk.uf2)
+- [rmk-cannonball-ll.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/download/0.31.3/rmk-cannonball-ll.uf2)
+- [rmk-cannonball-ll-sensor-rotated-180.uf2](https://github.com/Taro-Hayashi/Cannonball-LL/releases/download/0.31.3/rmk-cannonball-ll-sensor-rotated-180.uf2)
 
 Once the XIAO BLE is connected to the PC via the USB cable, press the small reset button twice quickly.
 ![](img/IMG_1220.jpg)    
@@ -371,6 +372,10 @@ Align the switch plate with main board #2 and install the keyswitch.
 ![](img/IMG_1430.jpg)  
 The keycap and knob cover are completed when fitted.
 ![](img/IMG_1444.jpg)  
+
+### 4.11 Connect to VIAL
+Key mapping can be customized using VIAL. It can be connected even when wireless.
+- https://get.vial.today/
 
 ## 5 Misc
 
