@@ -7,9 +7,6 @@
 ### 1.1 Attention
 
 - Lithium polymer batteries can explode and cause injury or fire, so handle them with care when in use.
-- You create the firmware yourself. The ZMK Firmware, which serves as a template, is available to the public.
-  - https://github.com/Taro-Hayashi/zmk-config-th/tree/Cannonball-LL
-- It is assumed that the user has some familiarity with soldering.
 
 ### 1.2 Contents
 
@@ -375,9 +372,6 @@ Align the switch plate with main board #2 and install the keyswitch.
 The keycap and knob cover are completed when fitted.
 ![](img/IMG_1444.jpg)  
 
-My ZMK repository is here.
-- https://github.com/Taro-Hayashi/zmk-config-th/tree/Cannonball-LL
-
 ## 5 Misc
 
 ### 5.1 Maintenance
@@ -389,6 +383,12 @@ If the top and bottom fastenings become loose or poor contact, consider replacin
 
 These pads are connected to the LEDs and the centre push.
 ![](img/IMG_1475.jpg)  
+
+### 5.3 RMK Firmware
+- https://github.com/Taro-Hayashi/rmk-cannonball-ll
+
+### 5.3 ZMK Firmware
+- https://github.com/Taro-Hayashi/zmk-config-th/tree/Cannonball-LL
 
 ### 5.3 Data for 3D Printing
 
