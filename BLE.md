@@ -389,6 +389,9 @@ SCRIX/Y: Reverse scroll direction
 SAV1/2: Save to slot  
 LOD1/2: Load from slot  
 
+This button on the back is the reset button; pressing it twice will enter bootloader mode.
+![](img/reset.jpg)  
+
 ## 6 Misc
 
 ### 6.1 Maintenance
