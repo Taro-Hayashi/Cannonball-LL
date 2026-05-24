@@ -400,7 +400,7 @@ Optional or colour-changed parts can be printed.
   
 ### 6.3 Firmware code
 
-- [keyboards/tarohayashi/cannonballll](https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/cannonballll)
+- [keyboards/tarohayashi/cannonballll](qmk_firmware)
 
 ### 6.4 Firmware for VIAL
 
@@ -415,5 +415,3 @@ I referred to snize([@snize](https://x.com/snize))'s SEIBOKU for the selection o
 ### 6.5 Sales
 - Yushakobo: https://shop.yushakobo.jp/en/products/10537
 - Booth: https://tarohayashi.booth.pm/items/6736492
-
-
