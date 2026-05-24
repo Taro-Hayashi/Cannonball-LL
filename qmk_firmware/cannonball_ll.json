@@ -1,0 +1,263 @@
+{
+  "name": "Cannonball LL",
+  "vendorId": "0x8884",
+  "productId": "0x0907",
+  "lighting": "qmk_rgblight",
+  "matrix": { "rows": 2, "cols": 18 },
+  "customKeycodes": [
+    {
+      "name": "Cmd / Ctrl",
+      "title": "MacOS/iOS:Command, Windows:Control",
+      "shortName": "Cmd / Ctrl"
+    },
+    {
+      "name": "Undo",
+      "title": "MacOS/iOS:Cmd+Z, Windows:Ctrl+Z",
+      "shortName": "Undo"
+    },
+    {
+      "name": "Redo",
+      "title": "MacOS/iOS:Shift+Cmd+Z, Windows:Shift+Ctrl+Z",
+      "shortName": "Redo"
+    },
+    {
+      "name": "Copy",
+      "title": "MacOS/iOS:Cmd+C, Windows:Ctrl+C",
+      "shortName": "Copy"
+    },
+    {
+      "name": "Cut",
+      "title": "MacOS/iOS:Cmd+X, Windows:Ctrl+X",
+      "shortName": "Cut"
+    },
+    {
+      "name": "Paste",
+      "title": "MacOS/iOS:Cmd+V, Windows:Ctrl+V",
+      "shortName": "Paste"
+    },
+    {
+      "name": "Scale Up",
+      "title": "MacOS/iOS:Cmd++, Windows:Ctrl++",
+      "shortName": "Scale Up"
+    },
+    {
+      "name": "Scale Down",
+      "title": "MacOS/iOS:Cmd+-, Windows:Ctrl+-",
+      "shortName": "Scale Down"
+    },
+    {
+      "name": "Scale Reset",
+      "title": "MacOS/iOS:Cmd+0, Windows:Ctrl+0",
+      "shortName": "Scale Reset"
+    },
+    {
+      "name": "Captcha",
+      "title": "MacOS/iOS:Shift+Cmd+4, Windows:Shift+Win+S",
+      "shortName": "Captcha"
+    },
+    {
+      "name": "Save",
+      "title": "MacOS/iOS:Cmd+S, Windows:Ctrl+S",
+      "shortName": "Save"
+    },
+    {
+      "name": "Save As",
+      "title": "MacOS/iOS:Shift+Cmd+S, Windows:Shift+Ctrl+S",
+      "shortName": "Save As"
+    },
+    {
+      "name": "Close Tab",
+      "title": "MacOS/iOS:Cmd+W, Windows:Ctrl+W",
+      "shortName": "Close Tab"
+    },
+    {
+      "name": "Restore Tab",
+      "title": "MacOS/iOS:Shift+Cmd+T, Windows:Shift+Ctrl+T",
+      "shortName": "Restore Tab"
+    },
+    {
+      "name": "Next App",
+      "title": "MacOS/iOS:Cmd+Tab, Windows:ALt+Tab",
+      "shortName": "Next App"
+    },
+    {
+      "name": "Prev App",
+      "title": "MacOS/iOS:Shift+Cmd+Z, Windows:Shift+Alt+Tab",
+      "shortName": "Prev App"
+    },
+    {
+      "name": "RGB Layers",
+      "title": "Toggle RGB Layers",
+      "shortName": "RGB Layers"
+    },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" }
+  ],
+  "layouts": {
+    "keymap": [
+      [
+        {
+          "x": 1.5
+        },
+        "1,9",
+        {
+          "x": 1.5
+        },
+        "1,7"
+      ],
+      [
+        {
+          "y": -0.5,
+          "x": 0.5
+        },
+        "1,11",
+        {
+          "x": 3.5
+        },
+        "1,8"
+      ],
+      [
+        {
+          "y": -0.75,
+          "x": 2.75
+        },
+        "1,1"
+      ],
+      [
+        {
+          "y": -0.25
+        },
+        "1,10",
+        {
+          "x": 4.5
+        },
+        "1,6"
+      ],
+      [
+        {
+          "y": -0.75,
+          "x": 1.75
+        },
+        "1,2",
+        {
+          "a": 7
+        },
+        "e0",
+        {
+          "a": 4
+        },
+        "1,0"
+      ],
+      [
+        {
+          "x": 2.75
+        },
+        "1,3"
+      ],
+      [
+        {
+          "y": -0.5,
+          "x": 1.5
+        },
+        "0,11",
+        {
+          "x": 1.5
+        },
+        "0,10"
+      ],
+      [
+        {
+          "y": 0.25,
+          "x": 1.75
+        },
+        "0,6",
+        "1,4\n\n\n\n\n\n\n\n\ne1",
+        "0,0"
+      ],
+      [
+        {
+          "y": -0.5,
+          "x": 0.5
+        },
+        "0,14",
+        {
+          "x": 3.5
+        },
+        "0,12"
+      ],
+      [
+        {
+          "y": -0.5,
+          "x": 1.75
+        },
+        "0,7",
+        "0,4",
+        "0,1",
+        {
+          "x": 1.75
+        },
+        "1,13"
+      ],
+      [
+        {
+          "y": -0.5,
+          "x": 8
+        },
+        "0,15"
+      ],
+      [
+        {
+          "y": -0.5,
+          "x": 1.75
+        },
+        "0,8",
+        "1,5\n\n\n\n\n\n\n\n\ne2",
+        "0,2",
+        {
+          "x": 1.75
+        },
+        "1,12"
+      ],
+      [
+        {
+          "y": -0.5,
+          "x": 0.5
+        },
+        "1,14",
+        {
+          "x": 3.5
+        },
+        "0,13"
+      ],
+      [
+        {
+          "y": -0.5,
+          "x": 1.75
+        },
+        "0,9",
+        "0,5",
+        "0,3"
+      ],
+      [
+        {
+          "y": 0.25,
+          "x": 2.75
+        },
+        "0,16"
+      ]
+    ]
+  }
+}

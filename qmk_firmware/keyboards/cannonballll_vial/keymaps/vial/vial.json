@@ -1,0 +1,264 @@
+{
+  "lighting": "qmk_rgblight",
+  "matrix": {
+    "rows": 2,
+    "cols": 18
+  },
+  "customKeycodes": [
+    {
+      "name": "Cmd / Ctrl",
+      "title": "MacOS/iOS:Command, Windows:Control",
+      "shortName": "Cmd\n/Ctrl"
+    },
+    {
+      "name": "Undo",
+      "title": "MacOS/iOS:Cmd+Z, Windows:Ctrl+Z",
+      "shortName": "Undo"
+    },
+    {
+      "name": "Redo",
+      "title": "MacOS/iOS:Shift+Cmd+Z, Windows:Shift+Ctrl+Z",
+      "shortName": "Redo"
+    },
+    {
+      "name": "Copy",
+      "title": "MacOS/iOS:Cmd+C, Windows:Ctrl+C",
+      "shortName": "Copy"
+    },
+    {
+      "name": "Cut",
+      "title": "MacOS/iOS:Cmd+X, Windows:Ctrl+X",
+      "shortName": "Cut"
+    },
+    {
+      "name": "Paste",
+      "title": "MacOS/iOS:Cmd+V, Windows:Ctrl+V",
+      "shortName": "Paste"
+    },
+    {
+      "name": "Scale Up",
+      "title": "MacOS/iOS:Cmd++, Windows:Ctrl++",
+      "shortName": "Scale\nUp"
+    },
+    {
+      "name": "Scale Down",
+      "title": "MacOS/iOS:Cmd+-, Windows:Ctrl+-",
+      "shortName": "Scale\nDown"
+    },
+    {
+      "name": "Scale Reset",
+      "title": "MacOS/iOS:Cmd+0, Windows:Ctrl+0",
+      "shortName": "Scale\nReset"
+    },
+    {
+      "name": "Captcha",
+      "title": "MacOS/iOS:Shift+Cmd+4, Windows:Shift+Win+S",
+      "shortName": "Captcha"
+    },
+    {
+      "name": "Save",
+      "title": "MacOS/iOS:Cmd+S, Windows:Ctrl+S",
+      "shortName": "Save"
+    },
+    {
+      "name": "Save As",
+      "title": "MacOS/iOS:Shift+Cmd+S, Windows:Shift+Ctrl+S",
+      "shortName": "Save\nAs"
+    },
+    {
+      "name": "Close Tab",
+      "title": "MacOS/iOS:Cmd+W, Windows:Ctrl+W",
+      "shortName": "Close\nTab"
+    },
+    {
+      "name": "Restore Tab",
+      "title": "MacOS/iOS:Shift+Cmd+T, Windows:Shift+Ctrl+T",
+      "shortName": "Restore\nTab"
+    },
+    {
+      "name": "Next App",
+      "title": "MacOS/iOS:Cmd+Tab, Windows:ALt+Tab",
+      "shortName": "Next\nApp"
+    },
+    {
+      "name": "Prev App",
+      "title": "MacOS/iOS:Shift+Cmd+Z, Windows:Shift+Alt+Tab",
+      "shortName": "Prev\nApp"
+    },
+    {
+      "name": "RGB Layers",
+      "title": "Toggle RGB Layers",
+      "shortName": "RGB\nLayers"
+    }
+  ],
+  "layouts": {
+    "keymap": [
+      [
+        {
+          "x": 4
+        },
+        "1,9",
+        {
+          "x": 1.5
+        },
+        "1,7"
+      ],
+      [
+        {
+          "y": -0.5,
+          "x": 3
+        },
+        "1,11",
+        {
+          "x": 3.5
+        },
+        "1,8"
+      ],
+      [
+        {
+          "y": -0.75,
+          "x": 5.25
+        },
+        "1,1"
+      ],
+      [
+        {
+          "y": -0.25,
+          "x": 2.5
+        },
+        "1,10",
+        {
+          "x": 4.5
+        },
+        "1,6"
+      ],
+      [
+        {
+          "y": -0.75,
+          "x": 4.25
+        },
+        "1,2",
+        {
+          "x": 1
+        },
+        "1,0"
+      ],
+      [
+        {
+          "x": 5.25
+        },
+        "1,3"
+      ],
+      [
+        {
+          "y": -0.5,
+          "x": 4
+        },
+        "0,11",
+        {
+          "x": 1.5
+        },
+        "0,10"
+      ],
+      [
+        {
+          "y": -0.5,
+          "x": 9.25
+        },
+        "0,0\n\n\n\n\n\n\n\n\ne",
+        "0,1\n\n\n\n\n\n\n\n\ne"
+      ],
+      [
+        {
+          "y": -0.25,
+          "x": 4.25
+        },
+        "0,6",
+        "1,4",
+        "0,0"
+      ],
+      [
+        {
+          "y": -0.5,
+          "x": 3
+        },
+        "0,14",
+        {
+          "x": 3.5
+        },
+        "0,12"
+      ],
+      [
+        {
+          "y": -0.5
+        },
+        "1,13",
+        {
+          "x": 3.25
+        },
+        "0,7",
+        "0,4",
+        "0,1",
+        {
+          "x": 2
+        },
+        "1,0\n\n\n\n\n\n\n\n\ne",
+        "1,1\n\n\n\n\n\n\n\n\ne"
+      ],
+      [
+        {
+          "y": -0.5,
+          "x": 1.25
+        },
+        "0,15"
+      ],
+      [
+        {
+          "y": -0.5
+        },
+        "1,12",
+        {
+          "x": 3.25
+        },
+        "0,8",
+        "1,5",
+        "0,2"
+      ],
+      [
+        {
+          "y": -0.5,
+          "x": 3
+        },
+        "1,14",
+        {
+          "x": 3.5
+        },
+        "0,13"
+      ],
+      [
+        {
+          "y": -0.75,
+          "x": 9.25
+        },
+        "2,0\n\n\n\n\n\n\n\n\ne",
+        "2,1\n\n\n\n\n\n\n\n\ne"
+      ],
+      [
+        {
+          "y": -0.75,
+          "x": 4.25
+        },
+        "0,9",
+        "0,5",
+        "0,3"
+      ],
+      [
+        {
+          "y": 0.25,
+          "x": 5.25
+        },
+        "0,16"
+      ]
+    ]
+  }
+}
