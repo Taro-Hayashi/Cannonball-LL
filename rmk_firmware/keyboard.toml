@@ -1,0 +1,30 @@
+# Documentation: https://rmk.rs/docs/configuration.html
+[keyboard]
+name = "Cannonball LL"
+product_name = "Cannonball LL"
+vendor_id = 0x8884
+product_id = 0x0919
+manufacturer = "Taro Hayashi"
+chip = "nrf52840"
+
+# TODO: 595 SPI shift register (rmk-gpio-595 実装後に置き換え)
+# 暫定: row GPIO を direct_pin で使用
+[matrix]
+matrix_type = "direct_pin"
+direct_pins = [["P0_28", "P0_29"]]
+
+[ble]
+enabled = true
+battery_adc_pin = "vddh"
+
+[layout]
+rows = 1
+cols = 2
+layers = 5
+keymap = [
+    [["_", "_"]],
+    [["_", "_"]],
+    [["_", "_"]],
+    [["_", "_"]],
+    [["_", "_"]]
+]

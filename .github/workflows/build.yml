@@ -1,0 +1,62 @@
+name: Build RMK firmware
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "rmk_firmware/**"
+      - ".github/workflows/build.yml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: rmk_firmware
+    steps:
+      - uses: actions/checkout@v4
+
+      # Stable builds the helper tools; the firmware uses rust-toolchain.toml.
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Install firmware toolchain
+        run: rustup toolchain install
+
+      - name: Cache cargo registry
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            rmk_firmware/target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('rmk_firmware/Cargo.lock', 'rmk_firmware/rust-toolchain.toml') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
+
+      - name: Install flip-link
+        run: cargo +stable install flip-link
+
+      - name: Install cargo-binutils
+        run: cargo +stable install cargo-binutils
+
+      - name: Install cargo-hex-to-uf2
+        run: cargo +stable install cargo-hex-to-uf2
+
+      - name: Build firmware variants
+        run: |
+          cargo objcopy --release -- -O ihex rmk-cannonball-ll.hex
+          cargo objcopy --release --features sensor-rotated-180 -- -O ihex rmk-cannonball-ll-sensor-rotated-180.hex
+
+          cargo hex-to-uf2 --input-path rmk-cannonball-ll.hex --output-path rmk-cannonball-ll.uf2 --family nrf52840
+          cargo hex-to-uf2 --input-path rmk-cannonball-ll-sensor-rotated-180.hex --output-path rmk-cannonball-ll-sensor-rotated-180.uf2 --family nrf52840
+
+      - name: Upload firmware artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: rmk-cannonball-ll-firmware
+          path: |
+            rmk_firmware/rmk-cannonball-ll.hex
+            rmk_firmware/rmk-cannonball-ll.uf2
+            rmk_firmware/rmk-cannonball-ll-sensor-rotated-180.hex
+            rmk_firmware/rmk-cannonball-ll-sensor-rotated-180.uf2

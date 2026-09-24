@@ -1,0 +1,3 @@
+rmk_firmware/target/
+rmk_firmware/*.hex
+rmk_firmware/*.uf2

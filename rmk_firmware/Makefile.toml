@@ -1,0 +1,75 @@
+[tasks.install-llvm-tools]
+install_crate = { rustup_component_name = "llvm-tools" }
+
+[tasks.flip-link]
+install_crate = { crate_name = "flip-link", binary = "flip-link", test_arg = ["-h"] }
+
+[tasks.objcopy]
+install_crate = { crate_name = "cargo-binutils", binary = "cargo", test_arg = [
+    "objcopy",
+    "--help",
+] }
+command = "cargo"
+args = ["objcopy", "--release", "--", "-O", "ihex", "rmk-cannonball-ll.hex"]
+dependencies = ["install-llvm-tools", "flip-link"]
+
+[tasks.objcopy-sensor-rotated-180]
+install_crate = { crate_name = "cargo-binutils", binary = "cargo", test_arg = [
+    "objcopy",
+    "--help",
+] }
+command = "cargo"
+args = [
+    "objcopy",
+    "--release",
+    "--features",
+    "sensor-rotated-180",
+    "--",
+    "-O",
+    "ihex",
+    "rmk-cannonball-ll-sensor-rotated-180.hex",
+]
+dependencies = ["install-llvm-tools", "flip-link"]
+
+[tasks.uf2-normal]
+install_crate = { crate_name = "cargo-hex-to-uf2", binary = "cargo", test_arg = [
+    "hex-to-uf2",
+    "--help",
+] }
+command = "cargo"
+args = [
+    "hex-to-uf2",
+    "--input-path",
+    "rmk-cannonball-ll.hex",
+    "--output-path",
+    "rmk-cannonball-ll.uf2",
+    "--family",
+    "nrf52840",
+]
+dependencies = ["objcopy"]
+
+[tasks.uf2-sensor-rotated-180]
+install_crate = { crate_name = "cargo-hex-to-uf2", binary = "cargo", test_arg = [
+    "hex-to-uf2",
+    "--help",
+] }
+command = "cargo"
+args = [
+    "hex-to-uf2",
+    "--input-path",
+    "rmk-cannonball-ll-sensor-rotated-180.hex",
+    "--output-path",
+    "rmk-cannonball-ll-sensor-rotated-180.uf2",
+    "--family",
+    "nrf52840",
+]
+dependencies = ["objcopy-sensor-rotated-180"]
+
+[tasks.uf2]
+dependencies = [
+    "uf2-normal",
+    "uf2-sensor-rotated-180",
+]
+
+[tasks.uf2-all]
+dependencies = ["uf2"]

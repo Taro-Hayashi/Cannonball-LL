@@ -1,0 +1,126 @@
+{
+  "name": "Cannonball LL",
+  "vendorId": "0x8884",
+  "productId": "0x0919",
+  "lighting": "none",
+  "matrix": {
+    "rows": 2,
+    "cols": 15
+  },
+  "layouts": {
+    "keymap": [
+      [
+        { "x": 2.25 },
+        "1,9",
+        { "x": 1.5 },
+        "1,7"
+      ],
+      [
+        { "y": -0.5, "x": 1.25 },
+        "1,11",
+        { "x": 3.5 },
+        "1,8"
+      ],
+      [
+        { "y": -0.75, "x": 3.5 },
+        "1,1"
+      ],
+      [
+        { "y": -0.25, "x": 0.75 },
+        "1,10",
+        { "x": 4.5 },
+        "1,6"
+      ],
+      [
+        { "y": -0.75, "x": 2.5 },
+        "1,2",
+        { "x": 1 },
+        "1,0"
+      ],
+      [
+        { "x": 3.5 },
+        "1,3"
+      ],
+      [
+        { "y": -0.5, "x": 2.25 },
+        "0,11",
+        { "x": 1.5 },
+        "0,10"
+      ],
+      [
+        { "y": -0.5, "x": 7.25 },
+        "0,0\n\n\n\n\n\n\n\n\ne",
+        "0,1\n\n\n\n\n\n\n\n\ne"
+      ],
+      [
+        { "y": -0.25, "x": 2.5 },
+        "0,6",
+        "1,4",
+        "0,0"
+      ],
+      [
+        { "y": -0.5, "x": 1.25 },
+        "0,14",
+        { "x": 3.5 },
+        "0,12"
+      ],
+      [
+        { "y": -0.5 },
+        "1,13",
+        { "x": 1.5 },
+        "0,7",
+        "0,4",
+        "0,1",
+        { "x": 1.75 },
+        "1,0\n\n\n\n\n\n\n\n\ne",
+        "1,1\n\n\n\n\n\n\n\n\ne"
+      ],
+      [
+        "1,12",
+        { "x": 1.5 },
+        "0,8",
+        "1,5",
+        "0,2"
+      ],
+      [
+        { "y": -0.5, "x": 1.25 },
+        "1,14",
+        { "x": 3.5 },
+        "0,13"
+      ],
+      [
+        { "y": -0.75, "x": 7.25 },
+        "2,0\n\n\n\n\n\n\n\n\ne",
+        "2,1\n\n\n\n\n\n\n\n\ne"
+      ],
+      [
+        { "y": -0.75, "x": 2.5 },
+        "0,9",
+        "0,5",
+        "0,3"
+      ]
+    ]
+  },
+  "customKeycodes": [
+    { "name": "BLE Profile 0",   "title": "Switch to BLE profile 0",             "shortName": "BLE0"  },
+    { "name": "BLE Profile 1",   "title": "Switch to BLE profile 1",             "shortName": "BLE1"  },
+    { "name": "BLE Profile 2",   "title": "Switch to BLE profile 2",             "shortName": "BLE2"  },
+    { "name": "BLE Next",        "title": "Next BLE profile",                    "shortName": "BLE>"  },
+    { "name": "BLE Prev",        "title": "Previous BLE profile",                "shortName": "BLE<"  },
+    { "name": "BLE Clear",       "title": "Clear current BLE profile",           "shortName": "BLECLR"},
+    { "name": "BLE Toggle",      "title": "Toggle USB / BLE connection",         "shortName": "BLETGL"},
+    { "name": "BLE Clr Peer",    "title": "Hold 5s to clear split peer info",    "shortName": "BLEPEER"},
+    { "name": "CPI Up",          "title": "Increase sensor CPI step",            "shortName": "CPI+"  },
+    { "name": "CPI Down",        "title": "Decrease sensor CPI step",            "shortName": "CPI-"  },
+    { "name": "Cursor Toggle",   "title": "Enable/disable cursor motion",        "shortName": "CSRTG" },
+    { "name": "Snipe",           "title": "Hold to switch to slowest CPI",       "shortName": "SNIPE" },
+    { "name": "Scroll Faster",   "title": "Increase scroll speed (smaller divisor)", "shortName": "SCR+" },
+    { "name": "Scroll Slower",   "title": "Decrease scroll speed (larger divisor)",  "shortName": "SCR-" },
+    { "name": "Scroll Inv X",    "title": "Toggle scroll pan (X) inversion",     "shortName": "SCRIX" },
+    { "name": "Scroll Inv Y",    "title": "Toggle scroll wheel (Y) inversion",   "shortName": "SCRIY" },
+    { "name": "Save Slot 1",     "title": "Save pointing settings to slot 1",    "shortName": "SAV1"  },
+    { "name": "Load Slot 1",     "title": "Load pointing settings from slot 1",  "shortName": "LOD1"  },
+    { "name": "Save Slot 2",     "title": "Save pointing settings to slot 2",    "shortName": "SAV2"  },
+    { "name": "Load Slot 2",     "title": "Load pointing settings from slot 2",  "shortName": "LOD2"  }
+  ]
+}
