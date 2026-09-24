@@ -1,3 +1,6 @@
+// Copyright 2025 Hayashi (@w_vwbw)
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 #pragma once
 #define HAL_USE_ADC FALSE
 #define HAL_USE_I2C FALSE

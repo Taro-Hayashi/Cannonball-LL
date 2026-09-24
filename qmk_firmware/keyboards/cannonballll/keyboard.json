@@ -108,7 +108,6 @@
     "hue_steps": 4,
     "saturation_steps": 4,
     "brightness_steps": 8,
-    "max_brightness": 255,
     "animations": {
       "alternating": true,
       "breathing": true,
@@ -121,7 +120,6 @@
       "static_gradient": true,
       "twinkle": true
     },
-    "sleep": false,
     "layers": {
       "enabled": true,
       "max": 6
